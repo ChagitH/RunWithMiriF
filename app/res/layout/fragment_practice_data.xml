@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="@drawable/background_rect"
+    tools:context="com.forst.miri.runwithme.fragments.PracticeDataFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/pink_data_layout_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pink_data_layout_circle_image"
+            android:layout_width="@dimen/image_circle_size_practice_data_activity_image"
+            android:layout_height="@dimen/image_circle_size_practice_data_activity_image"
+            android:src="@drawable/icon_pink_"
+            app:civ_border_color="@color/colorLightPink"
+            app:civ_border_width="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/pink_data_layout_logo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/pink_data_layout_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/logo_for_selfie"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/pink_data_layout_back_arrow"
+            app:layout_constraintStart_toEndOf="@+id/pink_data_layout_circle_image"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageButton
+            android:id="@+id/pink_data_layout_back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorTransparent"
+            android:src="@drawable/back_arrow_pink"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/pink_data_layout_circle_image"
+            app:layout_constraintStart_toEndOf="@+id/pink_data_layout_logo"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/pink_data_layout_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/margin_num_2"
+            android:gravity="center"
+            android:layoutDirection="ltr"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pink_data_layout_layout1">
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:id="@+id/pink_data_layout_tv_temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_num_2"
+                android:layout_marginRight="@dimen/margin_num_2"
+                android:layout_weight="1"
+                android:text="23"
+                android:textColor="@color/colorLightPink"
+                android:textSize="@dimen/text_size_1" />
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:id="@+id/pink_data_layout_tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="17.8.2017"
+                android:textSize="@dimen/text_size_1" />
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:id="@+id/pink_data_layout_tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_num_2"
+                android:layout_marginRight="@dimen/margin_num_2"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="25:61"
+                android:textColor="@color/colorLightPink"
+                android:textSize="@dimen/text_size_1"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/pink_data_layout_layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/pink_data_layout_layout4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pink_data_layout_layout2">
+
+            <com.forst.miri.runwithme.widges.OutputDataBox
+                android:id="@+id/pink_data_layout_output_box_time"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_output_databox_horray_screen"
+                android:layout_weight="0.50"
+                app:backgroundDrawable="@drawable/rouned_corner_pink"
+                app:circleImage="@drawable/icon_pink_duration"
+                app:textColor="@color/colorLightPink"
+                app:titleText="@string/total_run_time_heb" />
+
+            <View
+                android:layout_width="@dimen/standart_small_margin"
+                android:layout_height="10dip" />
+
+            <com.forst.miri.runwithme.widges.OutputDataBox
+                android:id="@+id/pink_data_layout_output_box_length"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_output_databox_horray_screen"
+                android:layout_weight="0.50"
+                app:backgroundDrawable="@drawable/rouned_corner_pink"
+                app:circleImage="@drawable/icon_pink_length"
+                app:textColor="@color/colorLightPink"
+                app:titleText="@string/total_length_heb" />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pink_data_layout_layout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/include"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pink_data_layout_layout3">
+
+
+
+
+            <com.forst.miri.runwithme.widges.OutputDataBox
+                android:id="@+id/pink_data_layout_output_box_kcl"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_output_databox_horray_screen"
+                android:layout_weight="0.50"
+                app:backgroundDrawable="@drawable/rouned_corner_pink"
+                app:circleImage="@drawable/icon_pink_cal"
+                app:textColor="@color/colorLightPink"
+                app:titleText="@string/total_kcl_heb" />
+
+
+            <View
+                android:layout_width="@dimen/standart_small_margin"
+                android:layout_height="10dip" />
+            
+            <com.forst.miri.runwithme.widges.OutputDataBox
+                android:id="@+id/pink_data_layout_output_box_rate"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/height_output_databox_horray_screen"
+                android:layout_weight="0.50"
+                app:backgroundDrawable="@drawable/rouned_corner_pink"
+                app:circleImage="@drawable/icon_pink_rate"
+                app:textColor="@color/colorLightPink"
+                app:titleText="@string/avg_rate_heb" />
+
+        </LinearLayout>
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/tabbed_run_data_layout_pink"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pink_data_layout_layout4" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/pink_data_layout_share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@color/colorWhite"
+        app:elevation="@dimen/margin_num_1"
+        app:rippleColor="@color/colorDarkPink"
+        app:srcCompat="@drawable/share_pink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

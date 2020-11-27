@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--<item name="windowNoTitle">true</item>-->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <!--<item name="drawerArrowStyle">@style/DrawerArrowStyle</item>-->
+        <!--<item name="android:windowContentTransitions">true</item>-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+    <!--</style>-->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorTransparent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <!--<item name="android:actionBarStyle">@style/ActionBarStyle</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:navigationBarColor">#00000000</item>-->
+        <!--<item name="android:statusBarColor">#00000000</item>-->
+        <item name="android:statusBarColor">@color/colorTransparent</item>
+
+    </style>
+
+    <!--<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+
+    <!--<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+    <!--<style name="ActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+    <!--<item name="colorPrimary">@color/colorToolBar</item>-->
+
+    <!--<style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">-->
+        <!--<item name="spinBars">true</item>-->
+        <!--<item name="color">@color/colorDarkPink</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--&lt;!&ndash;<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">&ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorTransparent</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <!--&lt;!&ndash;<item name="android:windowTranslucentStatus">true</item>&ndash;&gt;-->
+        <!--<item name="drawerArrowStyle">@style/DrawerArrowStyle</item>-->
+        <!--<item name="android:statusBarColor">@color/colorTransparent</item>-->
+        <!--android:statusBarColor-->
+        <!--&lt;!&ndash;<item name="android:actionBarStyle">@style/ActionBarStyle</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:windowNoTitle">true</item>&ndash;&gt;-->
+
+    <!--</style>-->
+
+</resources>

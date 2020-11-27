@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="main_activity_image_size">110dip</dimen>
+    <dimen name="main_fragment_textview_bottom_text_size">15sp</dimen>
+    <dimen name="fragments_hello_text_size">25sp</dimen>
+    <dimen name="hooray_text_in_medal_size">23sp</dimen>
+    <dimen name="hooray_middle_text">13sp</dimen>
+
+    <dimen name="text_size_go_out_and_run">25sp</dimen>
+
+    <dimen name="i_agree_small_text">9dp</dimen>
+
+</resources>

@@ -1,0 +1,710 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.forst.miri.runwithme"
+4    android:allowBackup="true"
+5    android:versionCode="84"
+6    android:versionName="0.205" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+9-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="27" />
+10-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:8:5-79
+12-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:8:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:9:5-67
+13-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:9:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:10:5-79
+14-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:10:22-76
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:11:5-68
+15-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:11:22-65
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:12:5-81
+16-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:12:22-78
+17    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+17-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:13:5-85
+17-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:13:22-82
+18
+19    <uses-feature android:name="android.hardware.location.gps" />
+19-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:16:5-66
+19-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:16:19-63
+20
+21    <supports-screens
+21-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:18:5-23:40
+22        android:largeScreens="true"
+22-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:19:9-36
+23        android:normalScreens="true"
+23-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:20:9-37
+24        android:requiresSmallestWidthDp="600"
+24-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:21:9-46
+25        android:smallScreens="false"
+25-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:22:9-37
+26        android:xlargeScreens="true" />
+26-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:23:9-37
+27
+28    <uses-feature
+28-->[com.google.android.gms:play-services-maps:16.0.0] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/7b2fa92ef7d0f1b1a46552e8b8908d88/play-services-maps-16.0.0/AndroidManifest.xml:26:5-28:35
+29        android:glEsVersion="0x00020000"
+29-->[com.google.android.gms:play-services-maps:16.0.0] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/7b2fa92ef7d0f1b1a46552e8b8908d88/play-services-maps-16.0.0/AndroidManifest.xml:27:9-41
+30        android:required="true" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+30-->[com.google.android.gms:play-services-maps:16.0.0] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/7b2fa92ef7d0f1b1a46552e8b8908d88/play-services-maps-16.0.0/AndroidManifest.xml:28:9-32
+31    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+31-->[com.google.android.gms:play-services-gcm:16.0.0] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/c86dcecac721a486e30046a5e85c3eb3/play-services-gcm-16.0.0/AndroidManifest.xml:23:5-82
+31-->[com.google.android.gms:play-services-gcm:16.0.0] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/c86dcecac721a486e30046a5e85c3eb3/play-services-gcm-16.0.0/AndroidManifest.xml:23:22-79
+32    <permission
+32-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:7:5-9:47
+33        android:name="com.forst.miri.runwithme.permission.C2D_MESSAGE"
+33-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:8:9-63
+34        android:protectionLevel="signature" />
+34-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:9:9-44
+35
+36    <uses-permission android:name="com.forst.miri.runwithme.permission.C2D_MESSAGE" />
+36-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:11:5-79
+36-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:11:22-76
+37    <!--
+38 Required so the device vibrates on receiving a push notification.
+39         Vibration settings of the device still apply.
+40    -->
+41    <uses-permission android:name="android.permission.VIBRATE" />
+41-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:23:5-66
+41-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:23:22-63
+42    <!--
+43 Use to restore notifications the user hasn't interacted with.
+44         They could be missed notifications if the user reboots their device if this isn't in place.
+45    -->
+46    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+46-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:29:5-81
+46-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:29:22-78
+47    <!-- Samsung -->
+48    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+48-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:31:5-86
+48-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:31:22-83
+49    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+49-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:32:5-87
+49-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:32:22-84
+50    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+50-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:33:5-81
+50-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:33:22-78
+51    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+51-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:34:5-83
+51-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:34:22-80
+52    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+52-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:35:5-88
+52-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:35:22-85
+53    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+53-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:36:5-92
+53-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:36:22-89
+54    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+54-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:37:5-84
+54-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:37:22-81
+55    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+55-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:38:5-83
+55-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:38:22-80
+56    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+56-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:39:5-91
+56-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:39:22-88
+57    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+57-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:40:5-92
+57-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:40:22-89
+58    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+58-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:41:5-93
+58-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:41:22-90
+59    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+59-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:42:5-73
+59-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:42:22-70
+60    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+60-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:43:5-82
+60-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:43:22-79
+61    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+61-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:44:5-83
+61-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:44:22-80
+62    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+62-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:45:5-88
+62-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:45:22-85
+63    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+63-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:46:5-89
+63-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:46:22-86
+64    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+64-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:26:5-110
+64-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:26:22-107
+65
+66    <application
+66-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:25:5-177:19
+67        android:name="com.forst.miri.runwithme.application.RunWithMiriApplication"
+67-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:26:9-59
+68        android:debuggable="true"
+69        android:icon="@mipmap/ic_launcher"
+69-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:27:9-43
+70        android:label="@string/app_name"
+70-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:28:9-41
+71        android:supportsRtl="true"
+71-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:29:9-35
+72        android:theme="@style/AppTheme" >
+72-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:30:9-40
+73
+74        <!-- <meta-data -->
+75        <!-- android:name="com.appsee.ApiKey" -->
+76        <!-- android:value="d59fe75c7e7244ad86dc89736391d0b8" /> -->
+77        <meta-data
+77-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:35:9-37:55
+78            android:name="com.google.android.geo.API_KEY"
+78-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:36:13-58
+79            android:value="@string/google_maps_key" />
+79-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:37:13-52
+80        <meta-data
+80-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:38:9-40:39
+81            android:name="com.onesignal.NotificationOpened.DEFAULT"
+81-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:39:13-68
+82            android:value="DISABLE" />
+82-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:40:13-36
+83        <meta-data
+83-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:41:9-43:72
+84            android:name="io.fabric.ApiKey"
+84-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:42:13-44
+85            android:value="ea1f0035304d213f2c2ed790251e70ec39d63bcf" />
+85-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:43:13-69
+86
+87        <service
+87-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:44:9-46:40
+88            android:name="com.forst.miri.runwithme.services.LocationService"
+88-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:45:13-53
+89            android:exported="false" />
+89-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:46:13-37
+90        <service
+90-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:47:9-50:72
+91            android:name="com.forst.miri.runwithme.services.PracticeGetElevationDataJobService"
+91-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:48:13-72
+92            android:exported="true"
+92-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:49:13-36
+93            android:permission="android.permission.BIND_JOB_SERVICE" />
+93-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:50:13-69
+94        <service
+94-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:51:9-58:19
+95            android:name="com.forst.miri.runwithme.services.PracticeGetElevationDataService"
+95-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:52:13-69
+96            android:exported="true"
+96-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:53:13-36
+97            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+97-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:54:13-93
+98            <intent-filter>
+98-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:55:13-57:29
+99                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+99-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:56:17-87
+99-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:56:25-84
+100            </intent-filter>
+101        </service>
+102        <service
+102-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:59:9-62:72
+103            android:name="com.forst.miri.runwithme.services.PracticeDownloadJobService"
+103-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:60:13-64
+104            android:exported="true"
+104-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:61:13-36
+105            android:permission="android.permission.BIND_JOB_SERVICE" />
+105-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:62:13-69
+106        <service
+106-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:63:9-70:19
+107            android:name="com.forst.miri.runwithme.services.DownloadPracticeService"
+107-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:64:13-61
+108            android:exported="true"
+108-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:65:13-36
+109            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+109-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:66:13-93
+110            <intent-filter>
+110-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:55:13-57:29
+111                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+111-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:56:17-87
+111-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:56:25-84
+112            </intent-filter>
+113        </service>
+114        <service
+114-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:71:9-74:72
+115            android:name="com.forst.miri.runwithme.services.PracticeSaveDataJobService"
+115-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:72:13-64
+116            android:exported="true"
+116-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:73:13-36
+117            android:permission="android.permission.BIND_JOB_SERVICE" />
+117-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:74:13-69
+118        <service
+118-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:76:9-83:19
+119            android:name="com.forst.miri.runwithme.services.AudioDownloadService"
+119-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:77:13-58
+120            android:exported="true"
+120-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:78:13-36
+121            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+121-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:79:13-93
+122            <intent-filter>
+122-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:55:13-57:29
+123                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+123-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:56:17-87
+123-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:56:25-84
+124            </intent-filter>
+125        </service>
+126        <service
+126-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:84:9-87:72
+127            android:name="com.forst.miri.runwithme.services.AudioDownloadJobService"
+127-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:85:13-61
+128            android:exported="true"
+128-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:86:13-36
+129            android:permission="android.permission.BIND_JOB_SERVICE" />
+129-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:87:13-69
+130        <service
+130-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:89:9-96:19
+131            android:name="com.forst.miri.runwithme.services.PracticeSaveDataService"
+131-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:90:13-61
+132            android:exported="true"
+132-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:91:13-36
+133            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+133-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:92:13-93
+134            <intent-filter>
+134-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:55:13-57:29
+135                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+135-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:56:17-87
+135-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:56:25-84
+136            </intent-filter>
+137        </service>
+138        <service
+138-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:97:9-100:72
+139            android:name="com.forst.miri.runwithme.services.DownloadPracticeDataFromServerJobService"
+139-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:98:13-78
+140            android:exported="true"
+140-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:99:13-36
+141            android:permission="android.permission.BIND_JOB_SERVICE" />
+141-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:100:13-69
+142        <service
+142-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:101:9-108:19
+143            android:name="com.forst.miri.runwithme.services.DownloadPracticeDataFromServerService"
+143-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:102:13-75
+144            android:exported="true"
+144-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:103:13-36
+145            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+145-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:104:13-93
+146            <intent-filter>
+146-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:55:13-57:29
+147                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+147-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:56:17-87
+147-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:56:25-84
+148            </intent-filter>
+149        </service>
+150        <service
+150-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:110:9-117:19
+151            android:name="com.forst.miri.runwithme.services.NotificationExtender"
+151-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:111:13-58
+152            android:exported="false"
+152-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:112:13-37
+153            android:permission="android.permission.BIND_JOB_SERVICE" >
+153-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:113:13-69
+154            <intent-filter>
+154-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:114:13-116:29
+155                <action android:name="com.onesignal.NotificationExtender" />
+155-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:115:17-77
+155-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:115:25-74
+156            </intent-filter>
+157        </service>
+158
+159        <!-- <receiver android:name=".services.NotificationExtender" > -->
+160        <!-- <intent-filter> -->
+161        <!-- <action android:name="com.forst.miri.runwithme" /> -->
+162        <!-- </intent-filter> -->
+163        <!-- </receiver> -->
+164
+165        <activity
+165-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:125:9-133:20
+166            android:name="com.forst.miri.runwithme.activities.MainActivity"
+166-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:126:13-52
+167            android:launchMode="singleTop"
+167-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:127:13-43
+168            android:screenOrientation="portrait"
+168-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:128:13-49
+169            android:windowSoftInputMode="adjustPan" >
+169-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:129:13-52
+170            <intent-filter>
+170-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:130:13-132:29
+171                <action android:name="com.chagit.hazani.run.with.miri.10235" />
+171-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:131:17-81
+171-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:131:25-78
+172            </intent-filter>
+173        </activity>
+174
+175        <!-- android:screenOrientation="fullUser" -->
+176
+177        <activity
+177-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:138:9-141:67
+178            android:name="com.forst.miri.runwithme.activities.RegistrationActivity"
+178-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:139:13-60
+179            android:screenOrientation="portrait"
+179-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:140:13-49
+180            android:windowSoftInputMode="adjustPan|stateHidden" />
+180-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:141:13-64
+181        <activity
+181-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:142:9-145:67
+182            android:name="com.forst.miri.runwithme.activities.LoginActivity"
+182-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:143:13-53
+183            android:screenOrientation="portrait"
+183-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:144:13-49
+184            android:windowSoftInputMode="adjustPan|stateHidden" />
+184-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:145:13-64
+185        <activity
+185-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:146:9-155:20
+186            android:name="com.forst.miri.runwithme.activities.SplashScreenActivity"
+186-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:147:13-60
+187            android:noHistory="true"
+187-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:148:13-37
+188            android:screenOrientation="portrait"
+188-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:149:13-49
+189            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+189-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:150:13-80
+190            <intent-filter>
+190-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:151:13-154:29
+191                <category android:name="android.intent.category.LAUNCHER" />
+191-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:152:17-77
+191-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:152:27-74
+192
+193                <action android:name="android.intent.action.MAIN" />
+193-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:153:17-69
+193-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:153:25-66
+194            </intent-filter>
+195        </activity>
+196        <activity
+196-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:157:9-160:67
+197            android:name="com.forst.miri.runwithme.activities.FeedbackActivity"
+197-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:158:13-56
+198            android:screenOrientation="portrait"
+198-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:159:13-49
+199            android:windowSoftInputMode="adjustPan|stateHidden" />
+199-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:160:13-64
+200        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+200-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:162:9-163:76
+200-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:163:13-73
+201
+202        <provider
+203            android:name="android.support.v4.content.FileProvider"
+203-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:166:13-67
+204            android:authorities="com.forst.miri.runwithme.fileprovider"
+204-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:167:13-64
+205            android:exported="false"
+205-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:168:13-37
+206            android:grantUriPermissions="true" >
+206-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:169:13-47
+207            <meta-data
+207-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:170:13-172:54
+208                android:name="android.support.FILE_PROVIDER_PATHS"
+208-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:171:17-67
+209                android:resource="@xml/file_paths" />
+209-->/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/AndroidManifest.xml:172:17-51
+210        </provider>
+211
+212        <!-- android:authorities="${applicationId}.com.forst.miri.runwithme.fileprovider" -->
+213
+214        <activity
+214-->[com.google.firebase:firebase-auth:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/d2cf0533bc3da88bdff9015d38fea9e7/firebase-auth-16.0.5/AndroidManifest.xml:24:9-31:50
+215            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+215-->[com.google.firebase:firebase-auth:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/d2cf0533bc3da88bdff9015d38fea9e7/firebase-auth-16.0.5/AndroidManifest.xml:25:13-85
+216            android:excludeFromRecents="true"
+216-->[com.google.firebase:firebase-auth:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/d2cf0533bc3da88bdff9015d38fea9e7/firebase-auth-16.0.5/AndroidManifest.xml:26:13-46
+217            android:exported="true"
+217-->[com.google.firebase:firebase-auth:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/d2cf0533bc3da88bdff9015d38fea9e7/firebase-auth-16.0.5/AndroidManifest.xml:27:13-36
+218            android:launchMode="singleTask"
+218-->[com.google.firebase:firebase-auth:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/d2cf0533bc3da88bdff9015d38fea9e7/firebase-auth-16.0.5/AndroidManifest.xml:28:13-44
+219            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+219-->[com.google.firebase:firebase-auth:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/d2cf0533bc3da88bdff9015d38fea9e7/firebase-auth-16.0.5/AndroidManifest.xml:29:13-102
+220            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+220-->[com.google.firebase:firebase-auth:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/d2cf0533bc3da88bdff9015d38fea9e7/firebase-auth-16.0.5/AndroidManifest.xml:30:13-72
+221
+222        <service
+222-->[com.google.firebase:firebase-auth:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/d2cf0533bc3da88bdff9015d38fea9e7/firebase-auth-16.0.5/AndroidManifest.xml:33:9-39:19
+223            android:name="com.google.firebase.components.ComponentDiscoveryService"
+223-->[com.google.firebase:firebase-auth:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/d2cf0533bc3da88bdff9015d38fea9e7/firebase-auth-16.0.5/AndroidManifest.xml:34:13-84
+224            android:exported="false" >
+224-->[com.google.firebase:firebase-auth:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/d2cf0533bc3da88bdff9015d38fea9e7/firebase-auth-16.0.5/AndroidManifest.xml:35:13-37
+225            <meta-data
+225-->[com.google.firebase:firebase-auth:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/d2cf0533bc3da88bdff9015d38fea9e7/firebase-auth-16.0.5/AndroidManifest.xml:36:13-38:85
+226                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+226-->[com.google.firebase:firebase-auth:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/d2cf0533bc3da88bdff9015d38fea9e7/firebase-auth-16.0.5/AndroidManifest.xml:37:17-109
+227                android:value="com.google.firebase.components.ComponentRegistrar" />
+227-->[com.google.firebase:firebase-auth:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/d2cf0533bc3da88bdff9015d38fea9e7/firebase-auth-16.0.5/AndroidManifest.xml:38:17-82
+228            <meta-data
+228-->[com.google.firebase:firebase-measurement-connector-impl:17.0.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/2ff865f864aaa762d9e26495182b3bc1/firebase-measurement-connector-impl-17.0.3/AndroidManifest.xml:28:13-30:85
+229                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+229-->[com.google.firebase:firebase-measurement-connector-impl:17.0.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/2ff865f864aaa762d9e26495182b3bc1/firebase-measurement-connector-impl-17.0.3/AndroidManifest.xml:29:17-139
+230                android:value="com.google.firebase.components.ComponentRegistrar" />
+230-->[com.google.firebase:firebase-measurement-connector-impl:17.0.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/2ff865f864aaa762d9e26495182b3bc1/firebase-measurement-connector-impl-17.0.3/AndroidManifest.xml:30:17-82
+231            <meta-data
+231-->[com.google.firebase:firebase-iid:17.0.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/ca727c1a8c0ce4702e9024c698db5dcf/firebase-iid-17.0.3/AndroidManifest.xml:32:13-34:85
+232                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+232-->[com.google.firebase:firebase-iid:17.0.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/ca727c1a8c0ce4702e9024c698db5dcf/firebase-iid-17.0.3/AndroidManifest.xml:33:17-96
+233                android:value="com.google.firebase.components.ComponentRegistrar" />
+233-->[com.google.firebase:firebase-iid:17.0.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/ca727c1a8c0ce4702e9024c698db5dcf/firebase-iid-17.0.3/AndroidManifest.xml:34:17-82
+234        </service>
+235
+236        <provider
+236-->[com.crashlytics.sdk.android:crashlytics:2.9.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/70d66272e93f38e062a3b353ac7455c5/crashlytics-2.9.5/AndroidManifest.xml:12:9-16:38
+237            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+237-->[com.crashlytics.sdk.android:crashlytics:2.9.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/70d66272e93f38e062a3b353ac7455c5/crashlytics-2.9.5/AndroidManifest.xml:13:13-75
+238            android:authorities="com.forst.miri.runwithme.crashlyticsinitprovider"
+238-->[com.crashlytics.sdk.android:crashlytics:2.9.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/70d66272e93f38e062a3b353ac7455c5/crashlytics-2.9.5/AndroidManifest.xml:14:13-75
+239            android:exported="false"
+239-->[com.crashlytics.sdk.android:crashlytics:2.9.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/70d66272e93f38e062a3b353ac7455c5/crashlytics-2.9.5/AndroidManifest.xml:15:13-37
+240            android:initOrder="90" />
+240-->[com.crashlytics.sdk.android:crashlytics:2.9.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/70d66272e93f38e062a3b353ac7455c5/crashlytics-2.9.5/AndroidManifest.xml:16:13-35
+241
+242        <meta-data
+242-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:49:9-51:51
+243            android:name="onesignal_app_id"
+243-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:50:13-44
+244            android:value="9b8e1cbb-5cb8-4418-8dc7-92635c7c5afc" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+244-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:51:13-48
+245        <meta-data
+245-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:53:9-55:70
+246            android:name="onesignal_google_project_number"
+246-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:54:13-59
+247            android:value="str:REMOTE" />
+247-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:55:13-67
+248
+249        <receiver
+249-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:57:9-67:20
+250            android:name="com.onesignal.GcmBroadcastReceiver"
+250-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:58:13-62
+251            android:permission="com.google.android.c2dm.permission.SEND" >
+251-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:59:13-73
+252
+253            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+254            <intent-filter android:priority="999" >
+254-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:62:13-66:29
+254-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:62:28-50
+255                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+255-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:63:17-81
+255-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:63:25-78
+256
+257                <category android:name="com.forst.miri.runwithme" />
+257-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:65:17-61
+257-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:65:27-58
+258            </intent-filter>
+259        </receiver>
+260        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+260-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:68:9-77
+260-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:68:19-74
+261
+262        <service android:name="com.onesignal.GcmIntentService" />
+262-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:70:9-66
+262-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:70:18-63
+263        <service
+263-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:71:9-73:72
+264            android:name="com.onesignal.GcmIntentJobService"
+264-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:72:13-61
+265            android:permission="android.permission.BIND_JOB_SERVICE" />
+265-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:73:13-69
+266        <service
+266-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:74:9-76:72
+267            android:name="com.onesignal.RestoreJobService"
+267-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:75:13-59
+268            android:permission="android.permission.BIND_JOB_SERVICE" />
+268-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:76:13-69
+269        <service
+269-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:77:9-79:72
+270            android:name="com.onesignal.RestoreKickoffJobService"
+270-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:78:13-66
+271            android:permission="android.permission.BIND_JOB_SERVICE" />
+271-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:79:13-69
+272        <service
+272-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:80:9-82:43
+273            android:name="com.onesignal.SyncService"
+273-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:81:13-53
+274            android:stopWithTask="true" />
+274-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:82:13-40
+275        <service
+275-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:83:9-85:72
+276            android:name="com.onesignal.SyncJobService"
+276-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:84:13-56
+277            android:permission="android.permission.BIND_JOB_SERVICE" />
+277-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:85:13-69
+278
+279        <activity
+279-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:87:9-89:75
+280            android:name="com.onesignal.PermissionsActivity"
+280-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:88:13-61
+281            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+281-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:89:13-72
+282
+283        <service android:name="com.onesignal.NotificationRestoreService" />
+283-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:91:9-76
+283-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:91:18-73
+284
+285        <receiver android:name="com.onesignal.BootUpReceiver" >
+285-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:93:9-98:20
+285-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:93:19-62
+286            <intent-filter>
+286-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:94:13-97:29
+287                <action android:name="android.intent.action.BOOT_COMPLETED" />
+287-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:95:17-79
+287-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:95:25-76
+288                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+288-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:96:17-82
+288-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:96:25-79
+289            </intent-filter>
+290        </receiver>
+291        <receiver android:name="com.onesignal.UpgradeReceiver" >
+291-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:99:9-103:20
+291-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:99:19-63
+292            <intent-filter>
+292-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:100:13-102:29
+293                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+293-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:101:17-84
+293-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:101:25-81
+294            </intent-filter>
+295        </receiver>
+296
+297        <activity
+297-->[com.google.android.gms:play-services-auth:16.0.1] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/776083eeceb42b72520ef37b7fc1b025/play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+298            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+298-->[com.google.android.gms:play-services-auth:16.0.1] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/776083eeceb42b72520ef37b7fc1b025/play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+299            android:excludeFromRecents="true"
+299-->[com.google.android.gms:play-services-auth:16.0.1] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/776083eeceb42b72520ef37b7fc1b025/play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+300            android:exported="false"
+300-->[com.google.android.gms:play-services-auth:16.0.1] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/776083eeceb42b72520ef37b7fc1b025/play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+301            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+301-->[com.google.android.gms:play-services-auth:16.0.1] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/776083eeceb42b72520ef37b7fc1b025/play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+302        <!--
+303            Service handling Google Sign-In user revocation. For apps that do not integrate with
+304            Google Sign-In, this service will never be started.
+305        -->
+306        <service
+306-->[com.google.android.gms:play-services-auth:16.0.1] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/776083eeceb42b72520ef37b7fc1b025/play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+307            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+307-->[com.google.android.gms:play-services-auth:16.0.1] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/776083eeceb42b72520ef37b7fc1b025/play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+308            android:exported="true"
+308-->[com.google.android.gms:play-services-auth:16.0.1] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/776083eeceb42b72520ef37b7fc1b025/play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+309            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+309-->[com.google.android.gms:play-services-auth:16.0.1] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/776083eeceb42b72520ef37b7fc1b025/play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+310        <!--
+311             FirebaseMessagingService performs security checks at runtime,
+312             no need for explicit permissions despite exported="true"
+313        -->
+314        <service
+314-->[com.google.firebase:firebase-messaging:17.3.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/91e2e50b1ce33215ccf5787ebb6f23cb/firebase-messaging-17.3.3/AndroidManifest.xml:28:9-34:19
+315            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+315-->[com.google.firebase:firebase-messaging:17.3.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/91e2e50b1ce33215ccf5787ebb6f23cb/firebase-messaging-17.3.3/AndroidManifest.xml:29:13-82
+316            android:exported="true" >
+316-->[com.google.firebase:firebase-messaging:17.3.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/91e2e50b1ce33215ccf5787ebb6f23cb/firebase-messaging-17.3.3/AndroidManifest.xml:30:13-36
+317            <intent-filter android:priority="-500" >
+317-->[com.google.firebase:firebase-messaging:17.3.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/91e2e50b1ce33215ccf5787ebb6f23cb/firebase-messaging-17.3.3/AndroidManifest.xml:31:13-33:29
+317-->[com.google.firebase:firebase-messaging:17.3.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/91e2e50b1ce33215ccf5787ebb6f23cb/firebase-messaging-17.3.3/AndroidManifest.xml:31:28-51
+318                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+318-->[com.google.firebase:firebase-messaging:17.3.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/91e2e50b1ce33215ccf5787ebb6f23cb/firebase-messaging-17.3.3/AndroidManifest.xml:32:17-78
+318-->[com.google.firebase:firebase-messaging:17.3.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/91e2e50b1ce33215ccf5787ebb6f23cb/firebase-messaging-17.3.3/AndroidManifest.xml:32:25-75
+319            </intent-filter>
+320        </service>
+321
+322        <receiver
+322-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:29:9-33:20
+323            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+323-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:30:13-85
+324            android:enabled="true"
+324-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:31:13-35
+325            android:exported="false" >
+325-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:32:13-37
+326        </receiver>
+327        <receiver
+327-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:34:9-42:20
+328            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+328-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:35:13-100
+329            android:enabled="true"
+329-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:36:13-35
+330            android:exported="true"
+330-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:37:13-36
+331            android:permission="android.permission.INSTALL_PACKAGES" >
+331-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:38:13-69
+332            <intent-filter>
+332-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:39:13-41:29
+333                <action android:name="com.android.vending.INSTALL_REFERRER" />
+333-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:40:17-79
+333-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:40:25-76
+334            </intent-filter>
+335        </receiver>
+336
+337        <service
+337-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:44:9-47:40
+338            android:name="com.google.android.gms.measurement.AppMeasurementService"
+338-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:45:13-84
+339            android:enabled="true"
+339-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:46:13-35
+340            android:exported="false" />
+340-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:47:13-37
+341        <service
+341-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:48:9-52:72
+342            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+342-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:49:13-87
+343            android:enabled="true"
+343-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:50:13-35
+344            android:exported="false"
+344-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:51:13-37
+345            android:permission="android.permission.BIND_JOB_SERVICE" />
+345-->[com.google.firebase:firebase-analytics:16.0.5] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/96dfcd078d3699dbe4fc585a4caf2245/firebase-analytics-16.0.5/AndroidManifest.xml:52:13-69
+346
+347        <receiver
+347-->[com.google.firebase:firebase-iid:17.0.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/ca727c1a8c0ce4702e9024c698db5dcf/firebase-iid-17.0.3/AndroidManifest.xml:37:9-44:20
+348            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+348-->[com.google.firebase:firebase-iid:17.0.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/ca727c1a8c0ce4702e9024c698db5dcf/firebase-iid-17.0.3/AndroidManifest.xml:38:13-78
+349            android:exported="true"
+349-->[com.google.firebase:firebase-iid:17.0.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/ca727c1a8c0ce4702e9024c698db5dcf/firebase-iid-17.0.3/AndroidManifest.xml:39:13-36
+350            android:permission="com.google.android.c2dm.permission.SEND" >
+350-->[com.google.firebase:firebase-iid:17.0.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/ca727c1a8c0ce4702e9024c698db5dcf/firebase-iid-17.0.3/AndroidManifest.xml:40:13-73
+351            <intent-filter>
+351-->[com.google.firebase:firebase-iid:17.0.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/ca727c1a8c0ce4702e9024c698db5dcf/firebase-iid-17.0.3/AndroidManifest.xml:41:13-43:29
+352                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+352-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:63:17-81
+352-->[com.onesignal:OneSignal:3.12.2] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/46602bbe63a15d4081d9f9de87b590e5/OneSignal-3.12.2/AndroidManifest.xml:63:25-78
+353            </intent-filter>
+354        </receiver>
+355        <!--
+356             FirebaseInstanceIdService performs security checks at runtime,
+357             no need for explicit permissions despite exported="true"
+358        -->
+359        <service
+359-->[com.google.firebase:firebase-iid:17.0.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/ca727c1a8c0ce4702e9024c698db5dcf/firebase-iid-17.0.3/AndroidManifest.xml:50:9-56:19
+360            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+360-->[com.google.firebase:firebase-iid:17.0.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/ca727c1a8c0ce4702e9024c698db5dcf/firebase-iid-17.0.3/AndroidManifest.xml:51:13-77
+361            android:exported="true" >
+361-->[com.google.firebase:firebase-iid:17.0.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/ca727c1a8c0ce4702e9024c698db5dcf/firebase-iid-17.0.3/AndroidManifest.xml:52:13-36
+362            <intent-filter android:priority="-500" >
+362-->[com.google.firebase:firebase-iid:17.0.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/ca727c1a8c0ce4702e9024c698db5dcf/firebase-iid-17.0.3/AndroidManifest.xml:53:13-55:29
+362-->[com.google.firebase:firebase-iid:17.0.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/ca727c1a8c0ce4702e9024c698db5dcf/firebase-iid-17.0.3/AndroidManifest.xml:53:28-51
+363                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+363-->[com.google.firebase:firebase-iid:17.0.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/ca727c1a8c0ce4702e9024c698db5dcf/firebase-iid-17.0.3/AndroidManifest.xml:54:17-80
+363-->[com.google.firebase:firebase-iid:17.0.3] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/ca727c1a8c0ce4702e9024c698db5dcf/firebase-iid-17.0.3/AndroidManifest.xml:54:25-77
+364            </intent-filter>
+365        </service>
+366
+367        <activity
+367-->[com.google.android.gms:play-services-base:16.0.1] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/45923569455dfdab24578be17b28d257/play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+368            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+368-->[com.google.android.gms:play-services-base:16.0.1] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/45923569455dfdab24578be17b28d257/play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+369            android:exported="false"
+369-->[com.google.android.gms:play-services-base:16.0.1] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/45923569455dfdab24578be17b28d257/play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+370            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+370-->[com.google.android.gms:play-services-base:16.0.1] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/45923569455dfdab24578be17b28d257/play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+371
+372        <provider
+372-->[com.google.firebase:firebase-common:16.0.4] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/7e6c0abada2c0c256704f5c0d032560a/firebase-common-16.0.4/AndroidManifest.xml:10:9-14:39
+373            android:name="com.google.firebase.provider.FirebaseInitProvider"
+373-->[com.google.firebase:firebase-common:16.0.4] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/7e6c0abada2c0c256704f5c0d032560a/firebase-common-16.0.4/AndroidManifest.xml:11:13-77
+374            android:authorities="com.forst.miri.runwithme.firebaseinitprovider"
+374-->[com.google.firebase:firebase-common:16.0.4] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/7e6c0abada2c0c256704f5c0d032560a/firebase-common-16.0.4/AndroidManifest.xml:12:13-72
+375            android:exported="false"
+375-->[com.google.firebase:firebase-common:16.0.4] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/7e6c0abada2c0c256704f5c0d032560a/firebase-common-16.0.4/AndroidManifest.xml:13:13-37
+376            android:initOrder="100" />
+376-->[com.google.firebase:firebase-common:16.0.4] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/7e6c0abada2c0c256704f5c0d032560a/firebase-common-16.0.4/AndroidManifest.xml:14:13-36
+377
+378        <meta-data
+378-->[com.google.android.gms:play-services-basement:16.1.0] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/dbe71909a1bb4f25298f8d293ad0033c/play-services-basement-16.1.0/AndroidManifest.xml:23:9-25:69
+379            android:name="com.google.android.gms.version"
+379-->[com.google.android.gms:play-services-basement:16.1.0] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/dbe71909a1bb4f25298f8d293ad0033c/play-services-basement-16.1.0/AndroidManifest.xml:24:13-58
+380            android:value="@integer/google_play_services_version" />
+380-->[com.google.android.gms:play-services-basement:16.1.0] /Users/chagithazani/.gradle/caches/transforms-2/files-2.1/dbe71909a1bb4f25298f8d293ad0033c/play-services-basement-16.1.0/AndroidManifest.xml:25:13-66
+381    </application>
+382
+383</manifest>

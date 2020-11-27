@@ -1,0 +1,116 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_rect"
+    android:layoutDirection="rtl"
+    tools:context="com.forst.miri.runwithme.fragments.HelpFragment">
+
+
+    <LinearLayout
+        android:id="@+id/help_fragment_main_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="@dimen/fragment_icon_size"
+            android:layout_height="@dimen/fragment_icon_size"
+            android:layout_margin="@dimen/margin_num_1"
+            android:src="@drawable/help_pink_64" />
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            app:customFontStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_num_1"
+            android:text="@string/menu_help_heb"
+            android:textColor="@color/colorDarkPink"
+            android:textSize="@dimen/text_size_titles_of_menu_fragments" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/help_fragment_view_pager_ll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/help_fragment_line_seperator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/help_fragment_main_ll"
+        android:layout_marginLeft="@dimen/text_size_1"
+        android:layout_marginRight="@dimen/text_size_1">
+
+        <ImageButton
+            android:id="@+id/help_fragment_view_pager_right_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/arrow_pink_left"
+            android:layout_marginRight="@dimen/text_size_2"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/help_fragment_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:clipToPadding="false"
+            android:overScrollMode="never"
+            android:paddingBottom="20dp"/>
+
+        <ImageButton
+            android:id="@+id/help_fragment_view_pager_left_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/arrow_pink_right"
+            android:layout_marginLeft="@dimen/text_size_2"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/help_fragment_line_seperator"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorDarkPink"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/help_fragment_thumb_horizontal_sv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/help_fragment_view_pager_ll" />
+
+
+    <HorizontalScrollView
+        android:id="@+id/help_fragment_thumb_horizontal_sv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/help_fragment_line_seperator">
+
+        <LinearLayout
+            android:id="@+id/help_fragment_thumb_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layoutDirection="ltr"/>
+    </HorizontalScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

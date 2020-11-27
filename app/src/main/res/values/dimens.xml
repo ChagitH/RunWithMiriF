@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_avtivity_outer_circle_stroke_width">2dip</dimen>
+    <dimen name="white_rect_pading">15dip</dimen>
+    <dimen name="main_activity_image_size">130dip</dimen>
+    <dimen name="between_buttons_margin">20dip</dimen>
+    <dimen name="main_button_text_size">15dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dip</dimen>
+    <dimen name="activity_vertical_margin">16dip</dimen>
+    <dimen name="nav_header_vertical_spacing">16dip</dimen>
+
+    <!--sizes for RegistrationActivity-->
+    <dimen name="between_views_margin">10dip</dimen>
+    <dimen name="from_bottom_of_screen_margin">15dip</dimen>
+    <dimen name="pink_text_size">17dp</dimen>
+    <dimen name="green_button_size_width">200dip</dimen>
+    <dimen name="green_button_size_height">40dip</dimen>
+    <dimen name="green_button_text_size">15dp</dimen>
+    <dimen name="button_corner_radius">7dip</dimen>
+    <dimen name="corner_radius">7dp</dimen>
+    <dimen name="main_button_title_text_size">20dp</dimen>
+    <dimen name="v_size">17dip</dimen>
+    <dimen name="user_pic_text_length_from_top">65dip</dimen>
+
+
+    <dimen name="standart_small_margin">8dip</dimen>
+    <dimen name="button_corner_radius_more_rect">6dip</dimen>
+
+    <dimen name="height_output_databox_horray_screen">50dip</dimen>
+    <dimen name="hooray_middle_text">17dp</dimen>
+    <!-- should be same size as data_box_image_size-->
+    <dimen name="output_data_box_right_magin">13dip</dimen> <!-- should be half of data_box_image_size-->
+    <dimen name="data_box_image_size">25dip</dimen>
+    <dimen name="hooray_text_in_medal_size">30dp</dimen>
+    <dimen name="small_text">15dp</dimen>
+
+
+    <dimen name="fragment_top_circle_plus_small_image_radius">120dip</dimen>
+    <dimen name="fragments_hello_text_size">25dp</dimen>
+    <dimen name="registration_text_size">15dp</dimen>
+
+    <dimen name="feedback_options_text_size">12dp</dimen>
+    <dimen name="big_margin_feedback_screen">30dip</dimen>
+    <dimen name="edittext_size_height_feedback_screen">40dip</dimen>
+    <dimen name="gemeral_edittext_size_height_feedback_screen">60dip</dimen>
+    <dimen name="side_menu_image_size">75dip</dimen>
+    <dimen name="top_margin">30dip</dimen>
+    <dimen name="image_circle_size_small_image">60dp</dimen>
+    <dimen name="image_circle_size_practice_data_activity_image">70dp</dimen>
+    <dimen name="small_icon_button_size">31dip</dimen>
+    <dimen name="size_of_circle_for_image_login_register">120dip</dimen>
+    <dimen name="health_agreement_text_size">20dp</dimen>
+    <dimen name="dpecial_top_margin_for_bar">20dip</dimen>
+    <dimen name="fragment_top_circle_plus_small_image_radius_plus_image">140dip</dimen>
+    <dimen name="rates_per_km_item_text_size">15dp</dimen>
+    <dimen name="i_agree_small_text">12dp</dimen>
+    <dimen name="standart_tiny_padding">4dip</dimen>
+    <dimen name="size_of_tabbed_layout_hooray" >250dip </dimen>
+    <dimen name="main_activity_top_margin">20dip</dimen>
+    <dimen name="bottom_panel_post_run_layout">40dip</dimen>
+    <dimen name="between_main_buttons_margin">5dip</dimen>
+
+    <dimen name="main_fragment_textview_bottom_margin">20dip</dimen>
+    <dimen name="margin_num_1">20dip</dimen>
+    <dimen name="width_of_yes_no_dialog">280dip</dimen>
+    <dimen name="height_of_yes_no_dialog">300dip</dimen>
+    <dimen name="margin_num_2">15dip</dimen>
+    <dimen name="margin_num_3">25dp</dimen>
+    <dimen name="margin_num_4">70dip</dimen>
+    <dimen name="text_size_1">20dp</dimen>
+    <dimen name="text_size_22">22dp</dimen>
+    <dimen name="text_size_1_5">18dp</dimen>
+    <dimen name="text_size_2">25dp</dimen>
+    <dimen name="green_stroke_button_size_width">180dip</dimen>
+    <dimen name="main_fragment_textview_bottom_text_size">15dp</dimen>
+    <dimen name="width_box_data_while_run_fragment">230dip</dimen>
+    <dimen name="height_box_data_while_run_fragment">70dip</dimen>
+    <dimen name="data_box_image_size_while_run_fragment">45dip</dimen>
+    <dimen name="day_box_size">20dip</dimen>
+    <dimen name="feedback_box_size">30dip</dimen>
+    <dimen name="text_size_time_of_exersize">10dp</dimen>
+    <dimen name="text_size_titles_of_menu_fragments">20dp</dimen>
+    <dimen name="text_size_0_5">8dp</dimen>
+    <dimen name="day_button_size">50dp</dimen>
+    <dimen name="width_of_eot_dialog">250dp</dimen>
+    <dimen name="height_of_eot_dialog">300dp</dimen>
+    <dimen name="text_size_go_out_and_run">20dp</dimen>
+    <dimen name="card_padding">30dp</dimen>
+    <dimen name="tip_image_size">70dp</dimen>
+    <dimen name="chagit_logo_height">50dp</dimen>
+    <dimen name="fragment_icon_size">24dp</dimen>
+    <dimen name="helth_agreement_height">400dp</dimen>
+    <dimen name="text_size_countdown">20dp</dimen>
+
+
+</resources>

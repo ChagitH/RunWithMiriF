@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="size_of_tabbed_layout_hooray" >150dip </dimen>
+    <dimen name="white_rect_pading">15dip</dimen>
+    <dimen name="main_activity_image_size">100dip</dimen>
+    <dimen name="between_buttons_margin">12dip</dimen>
+    <dimen name="main_button_text_size">12dp</dimen>
+    <dimen name="main_activity_top_margin">20dip</dimen>
+    <dimen name="green_stroke_button_size_width">140dip</dimen>
+    <dimen name="margin_num_4">50dip</dimen>
+    <dimen name="height_output_databox_horray_screen">45dip</dimen>
+    <dimen name="pink_tabed_view_height">300dip</dimen>
+    <dimen name="between_main_buttons_margin">5dip</dimen>
+    <dimen name="text_size_1">17dp</dimen>
+
+</resources>

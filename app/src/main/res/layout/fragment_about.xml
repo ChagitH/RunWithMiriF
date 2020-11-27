@@ -1,0 +1,212 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_rect"
+    tools:context="com.forst.miri.runwithme.fragments.AboutFragment">
+
+    <LinearLayout
+        android:id="@+id/about_linearLayout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/about_scroll_view">
+
+        <ImageView
+            android:layout_width="@dimen/fragment_icon_size"
+            android:layout_height="@dimen/fragment_icon_size"
+            android:layout_margin="@dimen/margin_num_1"
+            android:src="@drawable/about_pink" />
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_num_1"
+            android:text="@string/menu_about_us_heb"
+            android:textColor="@color/colorDarkPink"
+            android:textSize="@dimen/text_size_titles_of_menu_fragments"
+            app:customFontStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/about_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/about_linearLayout_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about_linearLayout_top">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/about_sentence1_heb"
+                app:customFontStyle="@string/bold"
+                android:layout_marginTop="8dp"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/about_sentence2_heb"
+                android:layout_marginTop="8dp" />
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/about_sentence3_heb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textDirection="rtl"
+                android:layoutDirection="rtl"
+                android:layout_marginTop="8dp">
+                <com.forst.miri.runwithme.widges.TextViewCustomFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/about_sentence4_heb" />
+
+                <com.forst.miri.runwithme.widges.TextViewCustomFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/about_sentence5_heb"
+                    app:customFontStyle="@string/bold" />
+            </LinearLayout>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/about_sentence6_heb"
+                android:layout_marginTop="8dp"/>
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:textDirection="rtl"-->
+                <!--android:layoutDirection="rtl">-->
+
+                <com.forst.miri.runwithme.widges.TextViewCustomFont
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/about_sentence7_heb"
+                    app:customFontStyle="@string/bold"
+                    android:layout_marginTop="8dp"/>
+
+
+
+            <!--</LinearLayout>-->
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/about_sentence8_heb" />
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/about_sentence9_heb"
+                android:layout_marginTop="8dp" />
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/about_sentence10_heb"
+                app:customFontStyle="@string/bold"
+                android:layout_marginTop="8dp"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/about_sentence11_heb" />
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/about_sentence12_heb" />
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/about_sentence13_heb" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/about_table" />
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/about_sentence14_heb" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/about_linearLayout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_num_1"
+        android:layout_marginTop="8dp"
+        android:layoutDirection="rtl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about_scroll_view">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="@dimen/chagit_logo_height"
+            android:layout_gravity="left"
+            android:src="@drawable/logo_chagit_apps"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/about_version_name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:textColor="@color/colorDarkPink"
+            android:textSize="@dimen/text_size_1" />
+
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>

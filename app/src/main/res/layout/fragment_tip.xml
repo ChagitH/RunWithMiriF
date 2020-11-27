@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pink_rect_white_background"
+    tools:context="com.forst.miri.runwithme.fragments.SingleTipFragment"
+    android:orientation="vertical"
+    android:layoutDirection="rtl">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/tip_top_icon"
+        android:layout_width="@dimen/tip_image_size"
+        android:layout_height="@dimen/tip_image_size"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:cropToPadding="true"
+        android:src="@drawable/tip1_icon"
+        android:layout_gravity="center"/>
+
+    <com.forst.miri.runwithme.widges.TextViewCustomFont
+        app:customFontStyle="bold"
+        android:id="@+id/tip_tip_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/tip1_title_heb"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp">
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/tip_tip_text_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/text_size_1"
+            android:gravity="center"
+            android:lineSpacingExtra="3dp"
+            android:text="@string/tip_1_heb"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size_1_5"/>
+    </ScrollView>
+
+
+</LinearLayout>

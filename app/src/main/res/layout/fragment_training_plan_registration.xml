@@ -1,0 +1,56 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_rect"
+    android:paddingTop="@dimen/top_margin"
+    tools:context="com.forst.miri.runwithme.fragments.TrainingPlanRegistrationFragment">
+
+
+    <com.forst.miri.runwithme.widges.TextViewCustomFont
+        android:id="@+id/practice_registration_explanation_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="@string/text_on_top_of_plan_registration_fragment_heb"
+        android:textColor="@color/colorDarkPink"
+        android:textSize="@dimen/text_size_titles_of_menu_fragments"
+        app:customFontStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/practice_registration_just_do_it_webview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <WebView
+        android:id="@+id/practice_registration_just_do_it_webview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/practice_registration_phone_details_textview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/practice_registration_explanation_textview" />
+
+    <com.forst.miri.runwithme.widges.TextViewCustomFont
+        android:id="@+id/practice_registration_phone_details_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_num_1"
+        android:layout_marginBottom="8dp"
+        android:autoLink="phone"
+        android:gravity="center"
+        android:text="@string/to_order_by_phone_details_heb"
+        android:textColor="@color/colorDarkPink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/practice_registration_just_do_it_webview" />
+
+
+</android.support.constraint.ConstraintLayout>

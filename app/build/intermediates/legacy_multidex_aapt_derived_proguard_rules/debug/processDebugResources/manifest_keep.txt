@@ -1,0 +1,2 @@
+# Referenced at /Users/chagithazani/Dev/Projects/RunWithMe/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:66
+-keep class com.forst.miri.runwithme.application.RunWithMiriApplication { <init>(); }

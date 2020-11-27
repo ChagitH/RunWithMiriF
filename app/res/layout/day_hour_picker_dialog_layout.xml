@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/colorWhite"
+    android:layoutDirection="rtl">
+
+
+    <com.forst.miri.runwithme.widges.TextViewCustomFont
+        android:id="@+id/day_hour_picker_dialog_days_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDarkPink"
+        android:padding="5dp"
+        android:text="@string/choose_new_day_and_time_heb"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_size_1_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/dhp_days_constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="@dimen/margin_num_2"
+        android:layout_marginBottom="@dimen/margin_num_2"
+        android:paddingTop="@dimen/margin_num_2"
+        android:paddingBottom="@dimen/margin_num_2"
+        android:layoutDirection="ltr"
+        app:layout_constraintBottom_toTopOf="@+id/local_ll1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day_hour_picker_dialog_days_title_tv">
+
+        <com.forst.miri.runwithme.widges.ButtonCustomFont
+            android:id="@+id/dhp_sunday"
+            android:layout_width="@dimen/day_button_size"
+            android:layout_height="@dimen/day_button_size"
+            android:background="@drawable/dark_pink_radio_button"
+            android:text="@string/sunday_heb"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/dhp_monday"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.forst.miri.runwithme.widges.ButtonCustomFont
+            android:id="@+id/dhp_monday"
+            android:layout_width="@dimen/day_button_size"
+            android:layout_height="@dimen/day_button_size"
+            android:background="@drawable/dark_pink_radio_button"
+            android:text="@string/monday_heb"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toStartOf="@+id/dhp_sunday"
+            app:layout_constraintStart_toEndOf="@+id/dhp_tuesday"
+            app:layout_constraintTop_toTopOf="@+id/dhp_sunday" />
+
+        <com.forst.miri.runwithme.widges.ButtonCustomFont
+            android:id="@+id/dhp_tuesday"
+            android:layout_width="@dimen/day_button_size"
+            android:layout_height="@dimen/day_button_size"
+            android:background="@drawable/dark_pink_radio_button"
+            android:text="@string/tuesday_heb"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toStartOf="@+id/dhp_monday"
+            app:layout_constraintStart_toEndOf="@+id/dhp_wednesday"
+            app:layout_constraintTop_toTopOf="@+id/dhp_monday" />
+
+        <com.forst.miri.runwithme.widges.ButtonCustomFont
+            android:id="@+id/dhp_wednesday"
+            android:layout_width="@dimen/day_button_size"
+            android:layout_height="@dimen/day_button_size"
+            android:background="@drawable/dark_pink_radio_button"
+            android:text="@string/wednesday_heb"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toStartOf="@+id/dhp_tuesday"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/dhp_tuesday" />
+
+        <com.forst.miri.runwithme.widges.ButtonCustomFont
+            android:id="@+id/dhp_thursday"
+            android:layout_width="@dimen/day_button_size"
+            android:layout_height="@dimen/day_button_size"
+            android:layout_marginTop="@dimen/margin_num_2"
+            android:background="@drawable/dark_pink_radio_button"
+            android:text="@string/thursday_heb"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/dhp_friday"
+            app:layout_constraintTop_toBottomOf="@+id/dhp_monday" />
+
+        <com.forst.miri.runwithme.widges.ButtonCustomFont
+            android:id="@+id/dhp_friday"
+            android:layout_width="@dimen/day_button_size"
+            android:layout_height="@dimen/day_button_size"
+            android:background="@drawable/dark_pink_radio_button"
+            android:text="@string/friday_heb"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toStartOf="@+id/dhp_thursday"
+            app:layout_constraintStart_toEndOf="@+id/dhp_saturday"
+            app:layout_constraintTop_toTopOf="@+id/dhp_thursday" />
+
+        <com.forst.miri.runwithme.widges.ButtonCustomFont
+            android:id="@+id/dhp_saturday"
+            android:layout_width="@dimen/day_button_size"
+            android:layout_height="@dimen/day_button_size"
+            android:background="@drawable/dark_pink_radio_button"
+            android:text="@string/saturday_heb"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toStartOf="@+id/dhp_friday"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/dhp_thursday" />
+    </android.support.constraint.ConstraintLayout>
+
+    <TimePicker
+        android:id="@+id/dtpd_time_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/local_ll1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day_hour_picker_dialog_days_title_tv"
+        android:headerBackground="@color/colorDarkPink"
+        android:visibility="invisible"/>
+
+
+    <LinearLayout
+        android:id="@+id/local_ll1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/green_button_size_height"
+        android:layout_margin="@dimen/margin_num_1"
+        android:layout_marginBottom="@dimen/margin_num_1"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dtpd_time_picker">
+
+        <com.forst.miri.runwithme.widges.ButtonCustomFont
+            android:id="@+id/dtpd_ok_next_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_num_1"
+            android:layout_marginRight="@dimen/margin_num_1"
+            android:layout_weight="1"
+            android:background="@drawable/default_button"
+            android:text="@string/continue_heb"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size_1" />
+
+        <com.forst.miri.runwithme.widges.ButtonCustomFont
+            android:id="@+id/dtpd_cancel_back_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_num_1"
+            android:layout_marginRight="@dimen/margin_num_1"
+            android:layout_weight="1"
+            android:background="@drawable/default_button"
+            android:text="@string/cancel_heb"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size_1" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

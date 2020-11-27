@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.forst.miri.runwithme.fragments.PathFragment">
+
+    <!--<com.google.android.gms.maps.MapView-->
+        <!--android:id="@+id/path_fragment_mapview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginTop="@dimen/between_views_margin"-->
+        <!--android:layout_marginBottom="@dimen/between_views_margin"-->
+        <!--android:layout_marginRight="@dimen/between_views_margin"-->
+        <!--android:layout_marginLeft="@dimen/between_views_margin"/>-->
+    <fragment
+        android:id="@+id/path_fragment_map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>

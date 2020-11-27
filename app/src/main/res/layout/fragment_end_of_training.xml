@@ -1,0 +1,141 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:background="@drawable/background_rect"
+    tools:context="com.forst.miri.runwithme.fragments.EndOfTrainingFragment">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/end_of_practice_ll_buttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside">
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/end_of_practice_fragment_movie_title_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/between_views_margin"
+            android:gravity="center"
+            android:text="@string/first_set_post_run_excersize_heb"
+            android:textColor="@color/colorPurple"
+            android:textSize="@dimen/registration_text_size" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_of_tabbed_layout_hooray"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/between_views_margin"
+            android:layout_marginTop="@dimen/between_views_margin"
+            android:background="@drawable/rouned_corner_shadow_purple"
+            android:visibility="visible">
+
+
+            <com.google.android.youtube.player.YouTubeThumbnailView
+                android:id="@+id/post_run_fragment_imageView_thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/end_of_practice_ll_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:layoutDirection="ltr"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.forst.miri.runwithme.widges.ButtonCustomFont
+                android:id="@+id/end_of_practice_button_send_feedback"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/green_button_size_height"
+                android:layout_marginRight="@dimen/margin_num_1"
+                android:layout_weight="1"
+                android:background="@drawable/default_button_stroke"
+                android:text="@string/send_feedback_heb"
+                android:textColor="@color/colorDarkPink" />
+
+            <com.forst.miri.runwithme.widges.ButtonCustomFont
+                android:id="@+id/end_of_practice_button_i_finished"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/green_button_size_height"
+                android:layout_marginLeft="@dimen/margin_num_1"
+                android:layout_weight="1"
+                android:background="@drawable/default_button"
+                android:text="@string/i_finished_the_training_heb"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/end_of_practice_button_next_back"
+            android:layout_width="@dimen/green_stroke_button_size_width"
+            android:layout_height="@dimen/green_button_size_height"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/default_button"
+            android:gravity="center"
+            android:layoutDirection="ltr"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/end_of_practice_button_next_back_forward_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:src="@drawable/ic_back_arrow_white_18dp" />
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:id="@+id/end_of_practice_button_next_back_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/to_pulls_excercise_heb"
+                android:textColor="@color/colorWhite" />
+
+            <ImageView
+                android:id="@+id/end_of_practice_button_next_back_back_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_play_arrow_white_18dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

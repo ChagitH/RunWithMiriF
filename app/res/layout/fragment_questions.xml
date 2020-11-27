@@ -1,0 +1,258 @@
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_rect"
+        tools:context=".fragments.QuestionsFragment">
+
+    <LinearLayout
+        android:id="@+id/agreement_top_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/agreement_scroll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="@dimen/fragment_icon_size"
+            android:layout_height="@dimen/fragment_icon_size"
+            android:layout_margin="@dimen/margin_num_1"
+            android:src="@drawable/question_and_answer_pink" />
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_num_1"
+            android:text="@string/menu_questions_heb"
+            android:textColor="@color/colorDarkPink"
+            android:textSize="@dimen/text_size_titles_of_menu_fragments"
+            app:customFontStyle="bold" />
+
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/questions_scroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agreement_top_ll">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layoutDirection="rtl">
+
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:gravity="center">-->
+
+                <!--<com.forst.miri.runwithme.widges.TextViewCustomFont-->
+                    <!--android:layout_width="15dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/question_1_"-->
+                    <!--android:textDirection="rtl"-->
+                    <!--app:customFontStyle="@string/bold"-->
+                    <!--android:textColor="@color/colorBlue"/>-->
+
+                <!--<com.forst.miri.runwithme.widges.TextViewCustomFont-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/question_1"-->
+                    <!--android:textDirection="rtl"-->
+                    <!--app:customFontStyle="@string/bold"-->
+                    <!--android:textColor="@color/colorDarkPink"/>-->
+
+        <!--</LinearLayout>-->
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_1"
+                android:textDirection="rtl"
+                app:customFontStyle="@string/bold"
+                android:textColor="@color/colorDarkPink"
+                android:layout_marginTop="@dimen/standart_tiny_padding"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/answer_1"
+                android:textDirection="rtl"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_2"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_tiny_padding"
+                app:customFontStyle="@string/bold"
+                android:textColor="@color/colorDarkPink"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/answer_2"
+                android:textDirection="rtl"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_3"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_tiny_padding"
+                android:textColor="@color/colorDarkPink"
+                app:customFontStyle="@string/bold"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/answer_3"
+                android:textDirection="rtl"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_4"
+                android:textDirection="rtl"
+                app:customFontStyle="@string/bold"
+                android:textColor="@color/colorDarkPink"
+                android:layout_marginTop="@dimen/standart_tiny_padding"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/answer_4"
+                android:textDirection="rtl"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_5"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_tiny_padding"
+                app:customFontStyle="@string/bold"
+                android:textColor="@color/colorDarkPink"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/answer_5"
+                android:textDirection="rtl"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_6"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_tiny_padding"
+                android:textColor="@color/colorDarkPink"
+                app:customFontStyle="@string/bold"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/answer_6"
+                android:textDirection="rtl"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_7"
+                android:textDirection="rtl"
+                app:customFontStyle="@string/bold"
+                android:textColor="@color/colorDarkPink"
+                android:layout_marginTop="@dimen/standart_tiny_padding"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/answer_7"
+                android:textDirection="rtl"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_8"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_tiny_padding"
+                app:customFontStyle="@string/bold"
+                android:textColor="@color/colorDarkPink"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/answer_8"
+                android:textDirection="rtl"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_9"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_tiny_padding"
+                android:textColor="@color/colorDarkPink"
+                app:customFontStyle="@string/bold"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/answer_9"
+                android:textDirection="rtl"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_10"
+                android:textDirection="rtl"
+                app:customFontStyle="@string/bold"
+                android:textColor="@color/colorDarkPink"
+                android:layout_marginTop="@dimen/standart_tiny_padding"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/answer_10"
+                android:textDirection="rtl"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_11"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_tiny_padding"
+                app:customFontStyle="@string/bold"
+                android:textColor="@color/colorDarkPink"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/answer_11"
+                android:textDirection="rtl"/>
+
+        </LinearLayout>
+        </ScrollView>
+
+
+
+
+        </android.support.constraint.ConstraintLayout>

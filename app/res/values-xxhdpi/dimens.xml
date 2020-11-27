@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_fragment_textview_bottom_margin">20dip</dimen>
+    <dimen name="green_button_size_height">35dip</dimen>
+    <dimen name="between_main_buttons_margin">5dip</dimen>
+    <dimen name="main_activity_image_size">150dip</dimen>
+    <dimen name="main_fragment_textview_bottom_text_size">15sp</dimen>
+    <dimen name="hooray_text_in_medal_size">23sp</dimen>
+    <dimen name="hooray_middle_text">17sp</dimen>
+    <dimen name="text_size_go_out_and_run">22sp</dimen>
+</resources>

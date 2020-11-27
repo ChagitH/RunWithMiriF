@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/chagithazani/Dev/Projects/RunWithMe/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/res/values-xxhdpi/dimens.xml",
+                    "from": {
+                        "startLines": "4,3,8,7,5,2,6,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "181,124,426,369,240,55,298,476",
+                        "endColumns": "58,56,49,56,57,68,70,55",
+                        "endOffsets": "235,176,471,421,293,119,364,527"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,171,221,278,336,405,476",
+                        "endColumns": "58,56,49,56,57,68,70,55",
+                        "endOffsets": "109,166,216,273,331,400,471,527"
+                    }
+                }
+            ]
+        }
+    ]
+}

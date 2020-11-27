@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/margin_num_2"
+    tools:context="com.forst.miri.runwithme.fragments.RateAndHeightsGraphFragment">
+
+
+
+    <com.github.mikephil.charting.charts.CombinedChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/margin_num_2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/margin_num_1">
+
+    <com.forst.miri.runwithme.widges.TextViewCustomFont
+        android:id="@+id/tv_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorLightPink"
+        android:background="@color/colorTransparent"
+        android:gravity="center_horizontal"
+        android:layout_gravity="top|center_horizontal"
+        android:text="@string/rate_min_to_km_heb"
+        android:visibility="gone"/>
+
+    <com.forst.miri.runwithme.widges.TextViewCustomFont
+        android:id="@+id/tv_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPurple"
+        android:background="@color/colorTransparent"
+        android:gravity="center_horizontal"
+        android:layout_gravity="top|center_horizontal"
+        android:text="@string/height_heb"
+        android:visibility="gone"/>
+    </LinearLayout>
+
+</FrameLayout>

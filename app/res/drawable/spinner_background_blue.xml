@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <item>
+            <shape
+                android:shape="rectangle">
+                <corners
+                    android:radius="@dimen/button_corner_radius_more_rect"/>
+
+                <padding
+                    android:left="8dp"
+                    android:top="8dp"
+                    android:right="8dp"
+                    android:bottom="8dp" />
+                <solid
+                    android:background="@android:drawable/btn_dropdown"
+                    android:color="@color/colorWhite"/>
+                <stroke
+                    android:color="@color/colorBlue"
+                    android:width="@dimen/main_avtivity_outer_circle_stroke_width"/>
+            </shape>
+        </item>
+        <!--<item>-->
+            <!--<shape-->
+                <!--android:shape="l">-->
+                <!--<solid-->
+                    <!--android:background="@android:drawable/btn_dropdown"/>-->
+            <!--</shape>-->
+        <!--</item>-->
+
+    </layer-list>

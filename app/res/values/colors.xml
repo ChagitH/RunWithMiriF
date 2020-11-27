@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorPurple</color>
+    <color name="colorPrimaryDark">@color/colorBlue</color>
+    <color name="colorAccent">@color/colorDarkPink</color>
+
+    <color name="colorLightPink">#EF90B5</color>
+    <color name="colorDarkPink">#e2196f</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorLightGray">#99d3d3d3</color>
+    <color name="colorDisabledGray">#C6CFCF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlue">#0080C0</color>
+    <color name="colorPurple">#7A236B</color>
+    <color name="colorDarkGray">#8b8989</color>
+
+    <!---->
+    <color name="colorDefaultButtonColor">@color/colorDarkPink</color>
+
+</resources>

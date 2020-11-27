@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgound">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/while_run_main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/white_rect_pading"
+        android:background="@drawable/background_rect_black"
+        android:layoutDirection="ltr">
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/while_run_distance_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="60sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/im2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/kilometer_heb"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="@+id/im3"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/im3"
+            app:layout_constraintTop_toTopOf="@+id/im3" />
+
+        <ImageView
+            android:id="@+id/im3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/km_heb"
+            app:layout_constraintLeft_toRightOf="@+id/im2"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/while_run_distance_tv"
+            app:srcCompat="@drawable/distance_white" />
+
+        <FrameLayout
+            android:id="@+id/box2"
+            android:layout_width="@dimen/width_box_data_while_run_fragment"
+            android:layout_height="@dimen/height_box_data_while_run_fragment"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorTransparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/im3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/output_data_box_right_magin"
+                android:background="@drawable/rouned_corner_shadow_purple"
+                android:layoutDirection="ltr"
+                android:orientation="horizontal"
+                android:weightSum="7">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/main_avtivity_outer_circle_stroke_width"
+                    android:layout_marginLeft="@dimen/main_avtivity_outer_circle_stroke_width"
+                    android:layout_marginRight="@dimen/main_avtivity_outer_circle_stroke_width"
+                    android:layout_marginTop="@dimen/main_avtivity_outer_circle_stroke_width"
+                    android:layout_weight="2"
+                    android:background="@drawable/half_rouned_corner_white"
+                    android:gravity="center">
+
+                    <com.forst.miri.runwithme.widges.TextViewCustomFont
+                        android:id="@+id/while_run_duration_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="00:00"
+                        android:textColor="@color/colorPurple"
+                        android:textSize="30sp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="5"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="@dimen/data_box_image_size_while_run_fragment"
+                android:layout_height="@dimen/data_box_image_size_while_run_fragment"
+                android:layout_gravity="right|center"
+                android:src="@drawable/icon_purple_duratiopn" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/box1"
+            android:layout_width="@dimen/width_box_data_while_run_fragment"
+            android:layout_height="@dimen/height_box_data_while_run_fragment"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorTransparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/box2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/output_data_box_right_magin"
+                android:background="@drawable/rouned_corner_shadow_purple"
+                android:layoutDirection="ltr"
+                android:orientation="horizontal"
+                android:weightSum="7">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/main_avtivity_outer_circle_stroke_width"
+                    android:layout_marginLeft="@dimen/main_avtivity_outer_circle_stroke_width"
+                    android:layout_marginRight="@dimen/main_avtivity_outer_circle_stroke_width"
+                    android:layout_marginTop="@dimen/main_avtivity_outer_circle_stroke_width"
+                    android:layout_weight="2"
+                    android:background="@drawable/half_rouned_corner_white"
+                    android:gravity="center">
+
+                    <com.forst.miri.runwithme.widges.TextViewCustomFont
+                        android:id="@+id/while_run_rate_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="00:00"
+                        android:textColor="@color/colorPurple"
+                        android:textSize="30sp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="5"
+                    android:gravity="center"
+                    android:orientation="vertical"></FrameLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="@dimen/data_box_image_size_while_run_fragment"
+                android:layout_height="@dimen/data_box_image_size_while_run_fragment"
+                android:layout_gravity="right|center"
+                android:src="@drawable/icon_purple_rate" />
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/iv_stop_run_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/white_circle_stop"
+            android:contentDescription="@string/long_press_heb"
+            android:gravity="center_horizontal"
+            android:translationZ="@dimen/margin_num_1"
+
+            app:layout_constraintBottom_toTopOf="@+id/while_run_looking_for_gps_tv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/box1" />
+
+        <ImageView
+            android:id="@+id/iv_resume_run_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/white_circle_play"
+            android:contentDescription="@string/long_press_heb"
+            android:gravity="center_horizontal"
+            android:translationZ="@dimen/margin_num_1"
+
+            app:layout_constraintBottom_toTopOf="@+id/while_run_looking_for_gps_tv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/box1" />
+
+        <ImageView
+            android:id="@+id/animation_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/white_circle_pause"
+            android:contentDescription="@string/long_press_heb"
+            android:gravity="center_horizontal"
+            android:translationZ="@dimen/margin_num_1"
+            app:layout_constraintBottom_toTopOf="@+id/while_run_looking_for_gps_tv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/box1" />
+
+
+
+
+            <ProgressBar
+            android:id="@+id/animation_pb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorWhite"
+            android:indeterminateDrawable="@anim/spinning_wheel"
+            android:translationZ="@dimen/margin_num_1"
+            app:layout_constraintBottom_toBottomOf="@+id/animation_circle"
+            app:layout_constraintEnd_toEndOf="@+id/animation_circle"
+            app:layout_constraintStart_toStartOf="@+id/animation_circle"
+            app:layout_constraintTop_toTopOf="@+id/animation_circle" />
+
+        <TextView
+            android:id="@+id/animation_pb_text_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTransparent"
+            android:textColor="@color/colorDarkPink"
+            android:textSize="@dimen/text_size_countdown"
+            android:translationZ="@dimen/margin_num_1"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/animation_circle"
+            app:layout_constraintEnd_toEndOf="@+id/animation_pb"
+            app:layout_constraintStart_toStartOf="@+id/animation_pb"
+            app:layout_constraintTop_toBottomOf="@+id/animation_pb" />
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/while_run_looking_for_gps_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:text="@string/loking_for_gps_heb"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

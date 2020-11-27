@@ -1,0 +1,107 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="right">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:id="@+id/runwith_fragment_train_num_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPurple"
+                android:textSize="@dimen/small_text"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:text=""/>
+
+            <FrameLayout
+                android:id="@+id/program_fragment_icon_circle"
+                android:layout_width="@dimen/fragment_top_circle_plus_small_image_radius_plus_image"
+                android:layout_height="@dimen/fragment_top_circle_plus_small_image_radius_plus_image"
+                android:layout_marginTop="@dimen/top_margin"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <FrameLayout
+                    android:layout_width="@dimen/fragment_top_circle_plus_small_image_radius"
+                    android:layout_height="@dimen/fragment_top_circle_plus_small_image_radius"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/iconc250x250" >
+
+                    <com.forst.miri.runwithme.widges.TextViewCustomFont
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingTop="@dimen/margin_num_4"
+                        android:text="@string/go_out_to_run"
+                        android:textColor="@color/colorWhite"
+                        android:gravity="center"/>
+                </FrameLayout>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/run_fragment_small_image_circle"
+                    android:layout_width="@dimen/image_circle_size_small_image"
+                    android:layout_height="@dimen/image_circle_size_small_image"
+                    android:layout_gravity="right|bottom"
+                    android:textColor="@color/colorWhite"
+                    app:civ_border_color="@color/colorPurple"
+                    app:civ_border_width="1.5dp"/>
+
+
+
+
+            </FrameLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_num_1"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <com.forst.miri.runwithme.widges.TextViewCustomFont
+                    app:customFontStyle="bold"
+                    android:id="@+id/run_fragment_tv_hello"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/margin_num_1"
+                    android:gravity="center"
+                    android:text="TextView"
+                    android:textColor="@color/colorPurple"
+                    android:textAppearance="@style/HelloUserTextStyle_normal_screen" />
+
+                <com.forst.miri.runwithme.widges.TextViewCustomFont
+                    android:id="@+id/run_fragment_tv_time_to_start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/margin_num_1"
+                    android:layout_marginBottom="@dimen/margin_num_1"
+                    android:text="@string/time_to_start_the_practice_heb"
+                    android:textColor="@color/colorPurple"
+                    android:textSize="@dimen/fragments_hello_text_size"
+                    android:textDirection="rtl" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</FrameLayout>

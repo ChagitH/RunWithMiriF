@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/tabbed_title_panel_size"-->
+        <!--android:theme="@style/ThemeOverlay.AppCompat.Light"-->
+        <!--android:background="@color/colorTransparent">-->
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabbed_run_data_layout_tabs_pink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTransparent"
+            app:tabTextColor="@color/colorLightPink"
+            app:tabIndicatorHeight="3dp"
+            fontPath="fonts/Rubik-Regular.ttf"
+            app:tabSelectedTextColor="@color/colorLightPink"
+            app:tabIndicatorColor="@color/colorLightPink"
+            app:tabMode="fixed"/>
+
+        <!--app:tabGravity="fill"-->
+
+
+    <!--</android.support.design.widget.AppBarLayout>-->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/tabbed_run_data_layout_viewpager_pink"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pink_rect_rounded"
+        android:padding="@dimen/margin_num_1"/>
+
+</LinearLayout>

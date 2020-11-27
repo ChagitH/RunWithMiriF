@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_rect"
+    tools:context="com.forst.miri.runwithme.fragments.TrainingPlanFragment">
+
+    <FrameLayout
+        android:id="@+id/program_fragment_icon_circle"
+        android:layout_width="@dimen/fragment_top_circle_plus_small_image_radius_plus_image"
+        android:layout_height="@dimen/fragment_top_circle_plus_small_image_radius_plus_image"
+        android:layout_marginTop="@dimen/top_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:layout_width="@dimen/fragment_top_circle_plus_small_image_radius"
+            android:layout_height="@dimen/fragment_top_circle_plus_small_image_radius"
+            android:layout_gravity="left|top"
+            android:background="@drawable/icond250x250"  >
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="@dimen/margin_num_4"
+                android:text="@string/my_practice_plan"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"/>
+        </FrameLayout>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/program_fragment_small_image_circle"
+            android:layout_width="@dimen/image_circle_size_small_image"
+            android:layout_height="@dimen/image_circle_size_small_image"
+            android:layout_gravity="right|bottom"
+            android:textColor="@color/colorWhite"
+            app:civ_border_color="@color/colorDarkPink"
+            app:civ_border_width="1.5dp"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/program_fragment_ll1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/program_fragment_icon_circle">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pink_rect_white_background"
+            android:layoutDirection="rtl"
+            android:orientation="vertical">
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:id="@+id/program_fragment_hooray_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_num_4"
+                android:layout_marginRight="@dimen/margin_num_4"
+                android:gravity="center"
+                android:text="@string/hooray_hev"
+                android:textColor="@color/colorDarkPink"
+                android:textSize="@dimen/text_size_22" />
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:id="@+id/program_fragment_progress_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/margin_num_2"
+                android:layout_marginRight="@dimen/margin_num_2"
+                android:text="@string/not_available_heb"
+                android:textSize="@dimen/text_size_22" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/program_fragment_ll2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/program_fragment_ll1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:orientation="horizontal">
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_num_1"
+                android:layout_marginRight="@dimen/margin_num_1"
+                android:gravity="center"
+                android:text="@string/you_are_registered_to_training_plan_heb"
+                android:textSize="@dimen/text_size_1" />
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:id="@+id/program_fragment_training_plan_name_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_num_1"
+                android:layout_marginRight="@dimen/margin_num_1"
+                android:gravity="center"
+                android:text="@string/not_available_heb"
+                android:textColor="@color/colorDarkPink"
+                android:textSize="@dimen/text_size_1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:layout_marginTop="@dimen/margin_num_1"
+            android:orientation="horizontal">
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_num_1"
+                android:layout_marginRight="@dimen/margin_num_1"
+                android:gravity="center"
+                android:text="@string/your_last_training_was_heb"
+                android:textSize="@dimen/text_size_1" />
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:id="@+id/program_fragment_last_training_day_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_num_1"
+                android:layout_marginRight="@dimen/margin_num_1"
+                android:gravity="center"
+                android:text="@string/not_available_heb"
+                android:textColor="@color/colorDarkPink"
+                android:textSize="@dimen/text_size_1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_num_3"
+            android:layoutDirection="rtl"
+            android:orientation="horizontal">
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_num_1"
+                android:layout_marginRight="@dimen/margin_num_1"
+                android:gravity="center"
+                android:text="@string/your_next_training_heb"
+                android:textSize="@dimen/text_size_1" />
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:id="@+id/program_fragment_training_num_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_num_1"
+                android:layout_marginRight="@dimen/margin_num_1"
+                android:gravity="center"
+                android:text="@string/not_available_heb"
+                android:textColor="@color/colorDarkPink"
+                android:textSize="@dimen/text_size_1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_num_1"
+            android:layoutDirection="rtl"
+            android:orientation="horizontal">
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:id="@+id/program_fragment_next_training_day_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_num_1"
+                android:layout_marginRight="@dimen/margin_num_1"
+                android:gravity="center"
+                android:text="@string/will_be_on_heb"
+                android:textColor="@color/colorDarkPink"
+                android:textSize="@dimen/text_size_1" />
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:id="@+id/program_fragment_to_change_next_training_day_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTransparent"
+                android:gravity="center"
+                android:text="@string/change_heb"
+                android:textSize="@dimen/text_size_1" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/program_fragment_ll_listen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/program_fragment_ll2">
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_num_1"
+            android:layout_marginRight="@dimen/margin_num_1"
+            android:gravity="center"
+            android:text="@string/program_will_expire_at_heb"
+            android:textColor="@color/colorDarkPink"
+            android:textDirection="rtl"
+            android:textSize="@dimen/text_size_0_5" />
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/program_fragment_program_expiration_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTransparent"
+            android:text="@string/not_available_heb"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_0_5" />
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_num_1"
+            android:layout_marginRight="@dimen/margin_num_1"
+            android:gravity="center"
+            android:text="@string/the_erlier_between_them_heb"
+            android:textColor="@color/colorDarkPink"
+            android:textDirection="rtl"
+            android:textSize="@dimen/text_size_0_5" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/program_fragment_ll_listen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintBottom_toTopOf="@+id/program_fragment_go_to_set_days_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/program_fragment_ll2">
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/what_do_we_have_in_the_next_trining_heb"
+            android:textColor="@color/colorDarkPink"
+            android:textDirection="rtl"
+            android:textSize="@dimen/small_text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_num_1"
+            android:background="@drawable/rouned_corner_shadow_pink"
+            android:gravity="center_vertical"
+            android:layoutDirection="rtl"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <ImageButton
+                android:id="@+id/program_fragment_play_imageview"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/colorTransparent"
+                android:src="@drawable/ic_play_arrow_white_18dp" />
+
+            <ProgressBar
+                android:id="@+id/program_fragment_audio_progress_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="3dip"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <com.forst.miri.runwithme.widges.ButtonCustomFont
+        android:id="@+id/program_fragment_go_to_set_days_button"
+        android:layout_width="@dimen/green_button_size_width"
+        android:layout_height="@dimen/green_button_size_height"
+        android:layout_marginBottom="@dimen/margin_num_2"
+        android:background="@drawable/default_button"
+        android:text="@string/update_training_time_heb"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/green_button_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+

@@ -1,0 +1,429 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_rect"
+    tools:context="com.forst.miri.runwithme.fragments.PersonalDetailsFragment">
+
+
+    <com.forst.miri.runwithme.widges.TextViewCustomFont
+        app:customFontStyle="bold"
+        android:id="@+id/object_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/menu_personal_data_heb"
+        android:textColor="@color/colorDarkPink"
+        android:textSize="@dimen/text_size_titles_of_menu_fragments"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/object_1"
+        android:layout_width="@dimen/size_of_circle_for_image_login_register"
+        android:layout_height="@dimen/size_of_circle_for_image_login_register"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/object_0">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/update_details_circle_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/camera"
+            app:civ_border_color="@color/colorLightPink"
+            app:civ_border_width="3dp" />
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/update_details_tv_upload_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/user_pic_text_length_from_top"
+            android:paddingBottom="20dp"
+            android:text="@string/load_picture_heb"
+            android:textColor="@color/colorWhite" />
+        <ImageView
+            android:id="@+id/update_details_im_camera_icon_upload_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/camera_icon_center"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/user_pic_text_length_from_top"
+            android:paddingBottom="3dp"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/object_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/object_1">
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/update_details_tv_kg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/margin_num_1"
+            android:paddingBottom="@dimen/margin_num_1"
+            android:paddingLeft="@dimen/margin_num_1"
+            android:layout_marginLeft="@dimen/margin_num_1"
+            android:layout_weight="1"
+            android:background="@color/colorTransparent"
+            android:gravity="left|center_vertical"
+            android:text="@string/wight_heb"
+            android:lines="1"
+            android:textColor="@color/colorDarkPink"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/colorDarkPink"
+            android:gravity="center" />
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/update_details_tv_year_of_birth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/margin_num_1"
+            android:layout_weight="1"
+            android:background="@color/colorTransparent"
+            android:gravity="center"
+            android:text="@string/year_of_birth_heb"
+            android:lines="1"
+            android:textColor="@color/colorDarkPink" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/colorDarkPink"
+            android:gravity="center" />
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/update_details_tv_hight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/margin_num_1"
+            android:paddingBottom="@dimen/margin_num_1"
+            android:paddingRight="@dimen/margin_num_1"
+            android:layout_marginRight="@dimen/margin_num_1"
+            android:layout_weight="1"
+            android:background="@color/colorTransparent"
+            android:gravity="right|center_vertical"
+            android:text="@string/hight_heb"
+            android:lines="1"
+            android:textColor="@color/colorDarkPink" />
+    </LinearLayout>
+
+    <ScrollView
+
+        android:id="@+id/object_3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/object_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/object_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/object_2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/green_button_size_height"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="@dimen/between_views_margin"
+                android:paddingRight="@dimen/between_views_margin"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/standart_tiny_padding"
+                android:paddingTop="@dimen/standart_tiny_padding"
+                android:layout_margin="@dimen/margin_num_1"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/margin_num_1"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:layoutDirection="rtl"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <com.forst.miri.runwithme.widges.EditTextCustomFont
+                        android:id="@+id/update_details_et_first_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/green_button_size_height"
+                        android:paddingBottom="@dimen/standart_tiny_padding"
+                        android:paddingTop="@dimen/standart_tiny_padding"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="8"
+                        android:background="@color/colorTransparent"
+                        android:gravity="right|center_vertical"
+                        android:text="@string/first_name_heb"
+                        android:maxLength="12"
+                        android:textAlignment="gravity"
+                        android:textAppearance="@style/RegistrationBlackMainFont">
+
+                    </com.forst.miri.runwithme.widges.EditTextCustomFont>
+
+                    <View
+                        android:layout_width="@dimen/v_size"
+                        android:layout_height="@dimen/v_size"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:background="@drawable/icon_edit_gray" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:layoutDirection="rtl"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <com.forst.miri.runwithme.widges.EditTextCustomFont
+                        android:id="@+id/update_details_et_last_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/green_button_size_height"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="8"
+                        android:background="@color/colorTransparent"
+                        android:gravity="right|center_vertical"
+                        android:text="@string/last_name_heb"
+                        android:maxLength="18"
+                        android:textAlignment="gravity"
+                        android:textAppearance="@style/RegistrationBlackMainFont" />
+
+                    <View
+                        android:layout_width="@dimen/v_size"
+                        android:layout_height="@dimen/v_size"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:background="@drawable/icon_edit_gray" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="2dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginLeft="@dimen/between_views_margin"-->
+                <!--android:layout_marginRight="@dimen/between_views_margin"-->
+                <!--android:background="@color/colorLightGray"-->
+                <!--android:gravity="center" />-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="right|center_vertical"-->
+                <!--android:paddingBottom="@dimen/standart_tiny_padding"-->
+                <!--android:paddingLeft="@dimen/between_views_margin"-->
+                <!--android:paddingRight="@dimen/between_views_margin"-->
+                <!--android:paddingTop="@dimen/standart_tiny_padding"-->
+                <!--android:layoutDirection="rtl"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_margin="@dimen/margin_num_1"-->
+                <!--android:weightSum="10">-->
+
+
+                <!--<com.forst.miri.runwithme.widges.EditTextCustomFont-->
+                    <!--android:id="@+id/update_details_et_id_num"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="@dimen/green_button_size_height"-->
+                    <!--android:paddingBottom="@dimen/standart_tiny_padding"-->
+                    <!--android:paddingTop="@dimen/standart_tiny_padding"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:layout_weight="9"-->
+                    <!--android:background="@color/colorTransparent"-->
+                    <!--android:ems="10"-->
+                    <!--android:gravity="right|center_vertical"-->
+                    <!--android:text="@string/id_num_heb"-->
+                    <!--android:inputType="none"-->
+                    <!--android:textAppearance="@style/RegistrationBlackMainFont"-->
+                    <!--android:enabled="false" />-->
+
+
+            <!--</LinearLayout>-->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/between_views_margin"
+                android:layout_marginRight="@dimen/between_views_margin"
+                android:background="@color/colorLightGray"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:paddingBottom="@dimen/standart_tiny_padding"
+                android:paddingLeft="@dimen/between_views_margin"
+                android:paddingRight="@dimen/between_views_margin"
+                android:paddingTop="@dimen/standart_tiny_padding"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/margin_num_1"
+                android:weightSum="10">
+
+
+                <com.forst.miri.runwithme.widges.EditTextCustomFont
+                    android:id="@+id/update_details_et_phone_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/green_button_size_height"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="9"
+                    android:background="@color/colorTransparent"
+                    android:ems="10"
+                    android:gravity="right|center_vertical"
+                    android:text="@string/phone_num_heb"
+                    android:inputType="phone"
+                    android:maxLength="11"
+                    android:paddingBottom="@dimen/standart_tiny_padding"
+                    android:paddingTop="@dimen/standart_tiny_padding"
+                    android:textAppearance="@style/RegistrationBlackMainFont" />
+
+                <View
+                    android:layout_width="@dimen/v_size"
+                    android:layout_height="@dimen/v_size"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/icon_edit_gray"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/between_views_margin"
+                android:layout_marginRight="@dimen/between_views_margin"
+                android:background="@color/colorLightGray"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:paddingBottom="@dimen/standart_tiny_padding"
+                android:paddingLeft="@dimen/between_views_margin"
+                android:paddingRight="@dimen/between_views_margin"
+                android:paddingTop="@dimen/standart_tiny_padding"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/margin_num_1"
+                android:weightSum="10">
+
+
+                <com.forst.miri.runwithme.widges.EditTextCustomFont
+                    android:id="@+id/update_details_et_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/green_button_size_height"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="9"
+                    android:background="@color/colorTransparent"
+                    android:ems="10"
+                    android:gravity="right|center_vertical"
+                    android:text="@string/email_heb"
+                    android:paddingBottom="@dimen/standart_tiny_padding"
+                    android:paddingTop="@dimen/standart_tiny_padding"
+                    android:textAppearance="@style/RegistrationBlackMainFont"
+                    android:enabled="false"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/between_views_margin"
+                android:layout_marginRight="@dimen/between_views_margin"
+                android:background="@color/colorLightGray"
+                android:gravity="center" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/object_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.forst.miri.runwithme.widges.ButtonCustomFont
+            android:id="@+id/update_details_button_reset_password"
+            android:layout_width="@dimen/green_button_size_width"
+            android:layout_height="@dimen/green_button_size_height"
+            android:layout_centerInParent="true"
+            android:background="@drawable/default_button_stroke"
+            android:text="@string/password_clear_heb"
+            android:textColor="@color/colorDarkPink"
+            android:textSize="@dimen/green_button_text_size" />
+
+        <com.forst.miri.runwithme.widges.ButtonCustomFont
+            android:id="@+id/update_details_button_save"
+            android:layout_width="@dimen/green_button_size_width"
+            android:layout_height="@dimen/green_button_size_height"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/between_views_margin"
+            android:background="@drawable/default_button"
+            android:text="@string/save_heb"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/green_button_text_size" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

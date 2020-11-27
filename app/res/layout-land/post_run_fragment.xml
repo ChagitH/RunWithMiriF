@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_rect_without_padding_on_top"
+    tools:context="com.forst.miri.runwithme.fragments.PostRunFragment">
+
+    <LinearLayout
+        android:id="@+id/post_f_ll7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/post_f_ll6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:layout_width="70dip"
+            android:layout_height="60dip">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/medal_layout_circle_image"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:layout_gravity="left"
+                app:civ_border_color="@color/colorPurple"
+                app:civ_border_width="2dp" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_gravity="center|right"
+                android:layout_marginTop="@dimen/margin_num_1"
+                android:src="@drawable/pink_medal_small" />
+
+        </FrameLayout>
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/medal_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/between_views_margin"
+            android:layout_marginRight="@dimen/between_views_margin"
+            android:text="!"
+            android:textColor="@color/colorPurple"
+            android:textSize="@dimen/hooray_text_in_medal_size" />
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            app:customFontStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/between_views_margin"
+            android:text="@string/hooray_hev"
+            android:textColor="@color/colorPurple"
+            android:textSize="@dimen/hooray_text_in_medal_size"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/post_f_ll6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layoutDirection="ltr"
+        app:layout_constraintBottom_toTopOf="@+id/post_f_ll5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_f_ll7">
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/run_data_tv_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/between_buttons_margin"
+            android:layout_marginRight="@dimen/between_buttons_margin"
+            android:gravity="left"
+            android:text="0"
+            android:textColor="@color/colorPurple"
+            android:textSize="@dimen/hooray_middle_text" />
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/run_data_tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="00.00.0000"
+            android:textColor="@color/colorDarkGray"
+            android:textSize="@dimen/hooray_middle_text" />
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            app:customFontStyle="bold"
+            android:id="@+id/run_data_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/between_buttons_margin"
+            android:layout_marginRight="@dimen/between_buttons_margin"
+            android:gravity="right"
+            android:text="00:00"
+            android:textColor="@color/colorPurple"
+            android:textSize="@dimen/hooray_middle_text"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/post_f_ll5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/post_f_ll4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_f_ll6">
+
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/the_best_km_was_heb"
+            android:textColor="@color/colorDarkGray"
+            android:textSize="@dimen/hooray_middle_text" />
+
+        <View
+            android:layout_width="@dimen/standart_small_margin"
+            android:layout_height="20dip" />
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            app:customFontStyle="bold"
+            android:id="@+id/run_data_tv_best_km"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/colorPurple"
+            android:textSize="@dimen/hooray_middle_text"/>
+
+        <View
+            android:layout_width="@dimen/standart_small_margin"
+            android:layout_height="20dip" />
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/minute_per_km_heb"
+            android:textColor="@color/colorPurple"
+            android:textSize="@dimen/hooray_middle_text" />
+    </LinearLayout>
+
+
+
+
+
+    <!--</LinearLayout>-->
+    <LinearLayout
+        android:id="@+id/post_f_ll4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/post_f_ll3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_f_ll5">
+
+
+        <com.forst.miri.runwithme.widges.OutputDataBox
+            android:id="@+id/hooray_dialog_output_box_time"
+            fontPath="fonts/Rubik-Regular.ttf"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/height_output_databox_horray_screen"
+            android:layout_weight="0.50"
+            app:backgroundDrawable="@drawable/rouned_corner_shadow_purple"
+            app:circleImage="@drawable/icon_purple_duratiopn"
+            app:textColor="@color/colorPurple"
+            app:titleText="@string/total_run_time_heb" />
+
+        <View
+            android:layout_width="@dimen/standart_small_margin"
+            android:layout_height="10dip" />
+
+        <com.forst.miri.runwithme.widges.OutputDataBox
+            android:id="@+id/hooray_dialog_output_box_length"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/height_output_databox_horray_screen"
+            android:layout_weight="0.5"
+            app:backgroundDrawable="@drawable/rouned_corner_shadow_purple"
+            app:circleImage="@drawable/icon_purple_length"
+            app:textColor="@color/colorPurple"
+            app:titleText="@string/total_length_heb" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/post_f_ll3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        app:layout_constraintBottom_toTopOf="@+id/post_f_ll2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_f_ll4">
+
+        <com.forst.miri.runwithme.widges.OutputDataBox
+            android:id="@+id/hooray_dialog_output_box_kcl"
+            fontPath="fonts/Rubik-Regular.ttf"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/height_output_databox_horray_screen"
+            android:layout_weight="0.50"
+            app:backgroundDrawable="@drawable/rouned_corner_shadow_purple"
+            app:circleImage="@drawable/icon_purple_cal"
+            app:textColor="@color/colorPurple"
+            app:titleText="@string/total_kcl_heb" />
+
+        <View
+            android:layout_width="@dimen/standart_small_margin"
+            android:layout_height="10dip" />
+
+        <com.forst.miri.runwithme.widges.OutputDataBox
+            android:id="@+id/hooray_dialog_output_box_rate"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/height_output_databox_horray_screen"
+            android:layout_weight="0.5"
+            app:backgroundDrawable="@drawable/rouned_corner_shadow_purple"
+            app:circleImage="@drawable/icon_purple_rate"
+            app:textColor="@color/colorPurple"
+            app:titleText="@string/avg_rate_heb" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/post_f_ll2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/purple_rect"
+        app:layout_constraintBottom_toTopOf="@+id/post_f_ll1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_f_ll3"
+        android:visibility="gone">
+        <!--android:layout_height="@dimen/size_of_tabbed_layout_hooray"-->
+        <FrameLayout
+            android:id="@+id/path_fragment_place_holder_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/main_avtivity_outer_circle_stroke_width" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/post_f_ll1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_panel_post_run_layout"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal"
+        android:weightSum="7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_f_ll2">
+
+        <ImageView
+            android:layout_width="0dip"
+            android:layout_height="40dip"
+            android:layout_weight="3"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/hooray_dialog_iv_take_pic"
+            android:layout_width="@dimen/small_icon_button_size"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/tzalmi_gray72x72" />
+
+        <ImageView
+            android:id="@+id/hooray_dialog_iv_share"
+            android:layout_width="@dimen/small_icon_button_size"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/shatfi_gray72x72" />
+
+        <com.forst.miri.runwithme.widges.ButtonCustomFont
+            android:id="@+id/hooray_dialog_button_close"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/default_button"
+            android:gravity="center"
+            android:text="@string/to_excercise_heb"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size_2" />
+
+
+    </LinearLayout>
+    <!--</FrameLayout>-->
+
+
+</android.support.constraint.ConstraintLayout>

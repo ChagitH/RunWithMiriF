@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/chagithazani/Dev/Projects/RunWithMe/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/chagithazani/.gradle/caches/transforms-2/files-2.1/968a71a9cc99ff6a6c12f76abd3a3325/appcompat-v7-27.1.1/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,1334,1438",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,1433,1549"
+                    }
+                },
+                {
+                    "source": "/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/res/values-large/dimens.xml",
+                    "from": {
+                        "startLines": "8,11,10,15,14,7,3,9,12,17,16,2,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "286,451,394,632,582,228,119,341,510,759,686,55,178",
+                        "endColumns": "54,58,56,53,49,57,56,52,70,53,72,63,49",
+                        "endOffsets": "336,505,446,681,627,281,171,389,576,808,754,114,223"
+                    },
+                    "to": {
+                        "startLines": "9,10,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "532,587,694,751,805,855,913,970,1023,1094,1148,1221,1284",
+                        "endColumns": "54,58,56,53,49,57,56,52,70,53,72,62,49",
+                        "endOffsets": "582,641,746,800,850,908,965,1018,1089,1143,1216,1279,1329"
+                    }
+                },
+                {
+                    "source": "/Users/chagithazani/.gradle/caches/transforms-2/files-2.1/24079154583bae581389288b3c94fb26/android-crop-1.0.1/res/values-large/values-large.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "172",
+                        "endColumns": "47",
+                        "endOffsets": "215"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "646",
+                        "endColumns": "47",
+                        "endOffsets": "689"
+                    }
+                }
+            ]
+        }
+    ]
+}

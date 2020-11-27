@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<dimen name="fragment_top_circle_plus_small_image_radius_plus_image">100dip</dimen>-->
+    <!--<dimen name="fragment_top_circle_button_size">90dip</dimen>-->
+    <!--<dimen name="fragment_top_circle_text_size">15dp</dimen>-->
+    <!--<dimen name="image_circle_size_small_image">40dp</dimen>-->
+
+    <dimen name="margin_num_1">5dip</dimen>
+    <dimen name="margin_num_2">10dip</dimen>
+    <dimen name="margin_num_3">15dp</dimen>
+    <dimen name="activity_vertical_margin">10dip</dimen>
+    <dimen name="green_button_size_height">25dip</dimen>
+    <dimen name="size_of_tabbed_layout_hooray" >230dip </dimen>
+    <dimen name="special_top_margin_for_bar">22dip</dimen>
+    <dimen name="text_size_1">15dp</dimen>
+    <dimen name="green_stroke_button_size_width">140dip</dimen>
+    <dimen name="margin_num_4">50dip</dimen>
+    <dimen name="height_output_databox_horray_screen">45dip</dimen>
+    <dimen name="between_main_buttons_margin">5dip</dimen>
+    <dimen name="main_activity_image_size">130dip</dimen>
+    <dimen name="main_fragment_textview_bottom_text_size">15dp</dimen>
+    <dimen name="hooray_text_in_medal_size">25dp</dimen>
+    <dimen name="hooray_middle_text">15dp</dimen>
+
+    <dimen name="text_size_go_out_and_run">23dp</dimen>
+
+
+
+</resources>

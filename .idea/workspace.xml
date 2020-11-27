@@ -1,0 +1,1495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="gmail" />
+        <option name="name" value="camera" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bd8534bb-4a93-4124-8fbe-ef79e2797a9a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/RunWithMe$layout_large_in_app.coverage" NAME="layout-large in app Coverage Results" MODIFIED="1508418167373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>layout-large.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="1000_-_API_26" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RunWithMe" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RunWithMe" type="f1a62948:ProjectNode" />
+                <item name="RunWithMe" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RunWithMe" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RunWithMe" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="RunWithMe" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Singleton" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Interface" />
+        <option value="valueResourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.execute()</find>
+      <find>,</find>
+      <find>.execute(,</find>
+      <find>.execute(</find>
+      <find>.</find>
+      <find>.execut</find>
+      <find>.execute</find>
+      <find>.requestEndedWithError(VolleyError</find>
+      <find>requestEndedWithError(VolleyError</find>
+      <find>string-array</find>
+      <find>.replaceFragment</find>
+      <find>requestEndedWithError</find>
+      <find>bitmap</find>
+      <find>setcancelable(</find>
+      <find>setCancelable</find>
+      <find>.nativeGetAxisValue</find>
+      <find>m</find>
+      <find>motio</find>
+      <find>motion</find>
+      <find>motionevent</find>
+      <find>ססמא</find>
+      <find>MainActivity.class</find>
+      <find>Teliver</find>
+      <find>sp</find>
+      <find>_api_</find>
+      <find>google_api_key</find>
+      <find>google</find>
+      <find>google_map</find>
+      <find>com.android.support:support-v4</find>
+      <find>GcmNetworkManager</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>run_without_miri_</replace>
+      <replace>mContext</replace>
+      <replace>getMyActivity</replace>
+      <replace>training</replace>
+      <replace>colorPurple</replace>
+      <replace>small_rectangle_purple</replace>
+      <replace>pep_</replace>
+      <replace>pep</replace>
+      <replace>dp</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments</dir>
+      <dir>$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/activities</dir>
+      <dir>$PROJECT_DIR$/app/src/test/java</dir>
+      <dir>$PROJECT_DIR$/app/src/main/res/values-mdpi</dir>
+      <dir>$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme</dir>
+      <dir>$PROJECT_DIR$/app</dir>
+    </dirStrings>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/Untitled" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RunWithMF_google_fit" />
+      </map>
+    </option>
+    <option name="RECENT_COMMON_BRANCH" value="master" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="ProjectId" id="1fzqxzvObbo6mVnrqbSm4uBscxk" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>AccessibilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Compiler issuesJava</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>UsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AndroidLintTextFields</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
+    <property name="DEBUGGABLE_DEVICE" value="samsung-sm_g900t-cc6bbe82" />
+    <property name="DEBUGGABLE_PROCESS" value="com.forst.miri.runwithme" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="cc6bbe82" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-10-28T10:30:30.107Z" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.BuildType" value="release" />
+    <property name="ExportApk.Flavors" value="" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="GpuMonitor.paused" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/java/com/forst/miri/runwithme/objects/Practice.java" />
+    <property name="ToolWindowStructure.ShowToolbar" value="false" />
+    <property name="UI_DESIGNER_EDITOR_MODE.CaptureAnalysis.SHOW" value="false" />
+    <property name="VectorAssetImportPath" value="$USER_HOME$/Documents/חגית חזני פיתוח אפליקציות/פרויקטים/ביצוע/מירי פורסט/graphics/for chagit/icons" />
+    <property name="android.profiler.active" value="true" />
+    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568217401952" />
+    <property name="device.picker.selection" value="cc6bbe82" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Default Config" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.forst.miri.runwithme.miscellaneous" />
+      <recent name="com.forst.miri.runwithme.interfaces" />
+      <recent name="com.forst.miri.runwithme.objects" />
+      <recent name="com.forst.miri.runwithme.services" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-land" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout-hdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/assets/fonts" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.forst.miri.runwithme.activities" />
+      <recent name="com.forst.miri.runwithme" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.forst.miri.runwithme" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-land" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout-hdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.forst.miri.runwithme.interfaces" />
+      <recent name="com.forst.miri.runwithme.fragments" />
+      <recent name="com.forst.miri.runwithme.services" />
+      <recent name="com.forst.miri.runwithme.fragments.tips" />
+      <recent name="com.forst.miri.runwithme.miscellaneous" />
+    </key>
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="layout-large in app" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="layout-large.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="layout-large" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhotoShareActivity" type="AndroidRunConfigurationType" factoryName="Android App" temporary="true">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="specific_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="com.forst.miri.runwithme.activities.PhotoShareActivity" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
+      <option name="TESTING_TYPE" value="0" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunWithMe [:app:signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RunWithMe [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Android App.app" />
+      <item itemvalue="Android App.PhotoShareActivity" />
+      <item itemvalue="Android JUnit.layout-large in app" />
+      <item itemvalue="Gradle.RunWithMe [:app:signingReport]" />
+      <item itemvalue="Gradle.RunWithMe [signingReport]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android App.PhotoShareActivity" />
+        <item itemvalue="Gradle.RunWithMe [:app:signingReport]" />
+        <item itemvalue="Gradle.RunWithMe [signingReport]" />
+        <item itemvalue="Android JUnit.layout-large in app" />
+        <item itemvalue="Android App.PhotoShareActivity" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd8534bb-4a93-4124-8fbe-ef79e2797a9a" name="Default" comment="" />
+      <created>1501404611036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1501404611036</updated>
+    </task>
+    <task id="LOCAL-00122" summary="14.5.2018 - added rates and heights graph">
+      <created>1526300683238</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1526300683239</updated>
+    </task>
+    <task id="LOCAL-00123" summary="14.5.2018 - end of day">
+      <created>1526303798991</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1526303798991</updated>
+    </task>
+    <task id="LOCAL-00124" summary="HelpFragment ready. RegistrationFragment needs to be updated">
+      <created>1526374130021</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1526374130023</updated>
+    </task>
+    <task id="LOCAL-00125" summary="After changing filter + pep Strings">
+      <created>1527767617809</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1527767617812</updated>
+    </task>
+    <task id="LOCAL-00126" summary="After changing filter + pep Strings">
+      <created>1527767652008</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1527767652009</updated>
+    </task>
+    <task id="LOCAL-00127" summary="After adding seconds ticker. ++">
+      <created>1528116577860</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1528116577861</updated>
+    </task>
+    <task id="LOCAL-00128" summary="5.6.18">
+      <created>1528200870290</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1528200870292</updated>
+    </task>
+    <task id="LOCAL-00129" summary="8.6.18">
+      <created>1528465668201</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1528465668203</updated>
+    </task>
+    <task id="LOCAL-00130" summary="end of 10.6.18&#10;fixed animation length on while running fragment">
+      <created>1528635616214</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1528635616217</updated>
+    </task>
+    <task id="LOCAL-00131" summary="end of 11.6.18&#10;removed Font library.&#10;Checking notifications not working after login.">
+      <created>1528723200198</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1528723200199</updated>
+    </task>
+    <task id="LOCAL-00132" summary="end of 12.6.18">
+      <created>1528811166949</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1528811166949</updated>
+    </task>
+    <task id="LOCAL-00133" summary="end of 14.6.18&#10;version 46">
+      <created>1528978015636</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1528978015641</updated>
+    </task>
+    <task id="LOCAL-00134" summary="end of 17.6.18&#10;version 47">
+      <created>1529236798028</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1529236798031</updated>
+    </task>
+    <task id="LOCAL-00135" summary="end of 18.6.18&#10;version 48">
+      <created>1529327974892</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1529327974895</updated>
+    </task>
+    <task id="LOCAL-00136" summary="end of 19.6.18&#10;version 49">
+      <created>1529410584460</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1529410584462</updated>
+    </task>
+    <task id="LOCAL-00137" summary="end of 21.6.18&#10;version 50&#10;portrait only">
+      <created>1529595719269</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1529595719271</updated>
+    </task>
+    <task id="LOCAL-00138" summary="24.6.18 morning&#10;version 51&#10;fixed bug in whileRunFragment">
+      <created>1529826041305</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1529826041307</updated>
+    </task>
+    <task id="LOCAL-00139" summary="28.6.18 morning&#10;version 52&#10;Production vr# 01.1">
+      <created>1530192017375</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1530192017377</updated>
+    </task>
+    <task id="LOCAL-00140" summary="1.7.18 &#10;version 53&#10;Production vr# 01.1">
+      <created>1530512012105</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1530512012108</updated>
+    </task>
+    <task id="LOCAL-00141" summary="3.7.18 &#10;version 55&#10;Production vr# 0.02">
+      <created>1530633456007</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1530633456008</updated>
+    </task>
+    <task id="LOCAL-00142" summary="5.7.18 &#10;changed User.createFromSharedPrefrences, will maybe fix bug.">
+      <created>1530806121274</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1530806121275</updated>
+    </task>
+    <task id="LOCAL-00143" summary="10.7.18 &#10;bugs small + QuestionsFragment + AgreementFragment">
+      <created>1531227448948</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1531227448949</updated>
+    </task>
+    <task id="LOCAL-00144" summary="12.7.18 &#10;LocationService - 10 minutes after training starts, it is considered as full training">
+      <created>1531380036305</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1531380036306</updated>
+    </task>
+    <task id="LOCAL-00145" summary="12.7.18 &#10;add about table and agreement text.">
+      <created>1531403353432</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1531403353433</updated>
+    </task>
+    <task id="LOCAL-00146" summary="15.7.18 &#10;add questions and full about&#10;version 58 / 0.05">
+      <created>1531666488096</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1531666488096</updated>
+    </task>
+    <task id="LOCAL-00147" summary="9.8.18&#10;Before changing Accuracy and minimum meters.&#10;Before adding Bezier smoothing in draw on map">
+      <created>1533797140602</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1533797140602</updated>
+    </task>
+    <task id="LOCAL-00148" summary="9.8.18&#10;AFTER changing Accuracy and minimum meters.&#10;AFTER adding Bezier smoothing in draw on map">
+      <created>1533824576192</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1533824576192</updated>
+    </task>
+    <task id="LOCAL-00149" summary="21.8.18&#10;fixes + minimum accepted accuracy = 60.&#10;To Be Tested">
+      <created>1534836611743</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1534836611744</updated>
+    </task>
+    <task id="LOCAL-00150" summary="28.8.18&#10;fixes + minimum accepted accuracy = 80.&#10;To Be Tested">
+      <created>1535442093133</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1535442093134</updated>
+    </task>
+    <task id="LOCAL-00151" summary="17.9.18&#10;some small changes. especially notifications of problems with gps">
+      <created>1537215116399</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1537215116401</updated>
+    </task>
+    <task id="LOCAL-00152" summary="3.10.18&#10;Teliver integration">
+      <created>1538558833422</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1538558833423</updated>
+    </task>
+    <task id="LOCAL-00153" summary="3.10.18&#10;Teliver integration step 1">
+      <created>1538570297351</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1538570297351</updated>
+    </task>
+    <task id="LOCAL-00154" summary="5.10.18&#10;Before Fused Location">
+      <created>1538729906880</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1538729906881</updated>
+    </task>
+    <task id="LOCAL-00155" summary="7.10.18&#10;after Fused Location&#10;ver 0.09&#10;64?">
+      <created>1538939649588</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1538939649591</updated>
+    </task>
+    <task id="LOCAL-00156" summary="8.10.18&#10; Before Export to Guy Doron">
+      <created>1538997871922</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1538997871922</updated>
+    </task>
+    <task id="LOCAL-00157" summary="8.10.18&#10; Before Export to Guy Doron">
+      <created>1538998184354</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1538998184355</updated>
+    </task>
+    <task id="LOCAL-00158" summary="5.11.18&#10;After Back from Guy Doron + fix of Clearing PersistantPracticeData">
+      <created>1541409448720</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1541409448721</updated>
+    </task>
+    <task id="LOCAL-00159" summary="5.11.18&#10;After Back from Guy Doron + fix of Clearing PersistantPracticeData">
+      <created>1541494915371</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1541494915372</updated>
+    </task>
+    <task id="LOCAL-00160" summary="5.11.18&#10;Before add more Logging from Guy Doron 11.11">
+      <created>1541914605783</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1541914605784</updated>
+    </task>
+    <task id="LOCAL-00161" summary="29.11.18&#10;Today Guy set up the correct keys in Google console. Added Filter.">
+      <created>1543502960810</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1543502960812</updated>
+    </task>
+    <task id="LOCAL-00162" summary="5.12.18&#10;הטמעה יותר מדוייקת, טיפול בבעיות בהקשר של הטמעה (pause, כניסה לבקגראונד) + תיקון באג מעבר אימונים">
+      <created>1544017197918</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1544017197919</updated>
+    </task>
+    <task id="LOCAL-00163" summary="18.12.18&#10;אחרי הוספת דיוק למיקום&#10;+ פרמטר רחוק למידת הדיוק הנדרש&#10;+ הכנה להגדרות האם להשמיע קול או לא בזמן ריצה חופשית">
+      <created>1545130586100</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1545130586102</updated>
+    </task>
+    <task id="LOCAL-00164" summary="27.12.18&#10;ver 0.19 (76)">
+      <created>1545912963853</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1545912963854</updated>
+    </task>
+    <task id="LOCAL-00165" summary="31.12.18&#10;ver 0.20 (77)">
+      <created>1546242735109</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1546242735113</updated>
+    </task>
+    <task id="LOCAL-00166" summary="15.1.1&#10;After 1 practice as default.&#10;Before changing time check independent on locations received">
+      <created>1547538527411</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1547538527412</updated>
+    </task>
+    <task id="LOCAL-00167" summary="15.1.1&#10;After changing time check independent on locations received">
+      <created>1547563717286</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1547563717286</updated>
+    </task>
+    <task id="LOCAL-00168" summary="24.1.1&#10;Before change of all runs">
+      <created>1548318511451</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1548318511453</updated>
+    </task>
+    <task id="LOCAL-00169" summary="24.1.1&#10;Before change of all runs">
+      <created>1548320042613</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1548320042613</updated>
+    </task>
+    <task id="LOCAL-00170" summary="25.3.19&#10;after fix of bug with WhileRunFragment">
+      <created>1553512939817</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1553512939818</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="layout-large_in_app - 2017.10.19 at 16h 02m 50s.xml">
+      <configuration name="layout-large in app" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="layout-large_in_app - 2017.10.19 at 16h 16m 38s.xml">
+      <configuration name="layout-large in app" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="layout-large_in_app - 2017.10.19 at 16h 24m 56s.xml">
+      <configuration name="layout-large in app" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="layout-large_in_app - 2017.10.19 at 16h 37m 39s.xml">
+      <configuration name="layout-large in app" configurationId="AndroidJUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/RunWithMiri" />
+      <path value="$PROJECT_DIR$/app/src" />
+      <path value="$PROJECT_DIR$/app" />
+    </ignored-roots>
+    <MESSAGE value="10.7.18 &#10;bugs small + QuestionsFragment + AgreementFragment" />
+    <MESSAGE value="12.7.18 &#10;LocationService - 10 minutes after training starts, it is considered as full training" />
+    <MESSAGE value="12.7.18 &#10;add about table and agreement text." />
+    <MESSAGE value="15.7.18 &#10;add questions and full about&#10;version 58 / 0.05" />
+    <MESSAGE value="9.8.18&#10;Before changing Accuracy and minimum meters.&#10;Before adding Bezier smoothing in draw on map" />
+    <MESSAGE value="9.8.18&#10;AFTER changing Accuracy and minimum meters.&#10;AFTER adding Bezier smoothing in draw on map" />
+    <MESSAGE value="21.8.18&#10;fixes + minimum accepted accuracy = 60.&#10;To Be Tested" />
+    <MESSAGE value="28.8.18&#10;fixes + minimum accepted accuracy = 80.&#10;To Be Tested" />
+    <MESSAGE value="17.9.18&#10;some small changes. especially notifications of problems with gps" />
+    <MESSAGE value="3.10.18&#10;Teliver integration" />
+    <MESSAGE value="3.10.18&#10;Teliver integration step 1" />
+    <MESSAGE value="5.10.18&#10;Before Fused Location" />
+    <MESSAGE value="7.10.18&#10;after Fused Location&#10;ver 0.09&#10;64?" />
+    <MESSAGE value="8.10.18&#10; Before Export to Guy Doron" />
+    <MESSAGE value="5.11.18&#10;After Back from Guy Doron + fix of Clearing PersistantPracticeData" />
+    <MESSAGE value="5.11.18&#10;Before add more Logging from Guy Doron 11.11" />
+    <MESSAGE value="29.11.18&#10;Today Guy set up the correct keys in Google console. Added Filter." />
+    <MESSAGE value="5.12.18&#10;הטמעה יותר מדוייקת, טיפול בבעיות בהקשר של הטמעה (pause, כניסה לבקגראונד) + תיקון באג מעבר אימונים" />
+    <MESSAGE value="18.12.18&#10;אחרי הוספת דיוק למיקום&#10;+ פרמטר רחוק למידת הדיוק הנדרש&#10;+ הכנה להגדרות האם להשמיע קול או לא בזמן ריצה חופשית" />
+    <MESSAGE value="27.12.18&#10;ver 0.19 (76)" />
+    <MESSAGE value="31.12.18&#10;ver 0.20 (77)" />
+    <MESSAGE value="15.1.1&#10;After 1 practice as default.&#10;Before changing time check independent on locations received" />
+    <MESSAGE value="15.1.1&#10;After changing time check independent on locations received" />
+    <MESSAGE value="24.1.1&#10;Before change of all runs" />
+    <MESSAGE value="25.3.19&#10;after fix of bug with WhileRunFragment" />
+    <option name="LAST_COMMIT_MESSAGE" value="25.3.19&#10;after fix of bug with WhileRunFragment" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="589" height="522" key="Git.Branch.Popup" />
+    <state width="589" height="522" key="Git.Branch.Popup/0.0.1280.800/-2560.0.2560.1440" />
+    <state width="589" height="522" key="Git.Branch.Popup/2560.1600/2560.1440" />
+    <state width="589" height="522" key="Git.Branch.Popup@2560.1440" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/application/RunWithMiriApplication.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="405" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/AlertDialogFragment.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="527" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/miscellaneous/ChartValueYFormatter.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="652" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/miscellaneous/ChartValueYFormatter.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="653" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/objects/UserProperties.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="800" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/services/PracticeGetElevationDataJobService.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="846" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/services/PracticeGetElevationDataJobService.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="848" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/HoorayFragment.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="985" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/miscellaneous/PracticeDataFetchHeightsTask.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="1054" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/services/PracticeSaveDataService.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="1120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/PersonalDetailsFragment.java</url>
+          <line>357</line>
+          <option name="timeStamp" value="1362" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/MainFragment.java</url>
+          <line>183</line>
+          <option name="timeStamp" value="1442" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/MainFragment.java</url>
+          <line>300</line>
+          <option name="timeStamp" value="1445" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/MainFragment.java</url>
+          <line>299</line>
+          <option name="timeStamp" value="1446" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/PersonalDetailsFragment.java</url>
+          <line>373</line>
+          <option name="timeStamp" value="1493" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/PersonalDetailsFragment.java</url>
+          <line>731</line>
+          <option name="timeStamp" value="1494" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/activities/RegistrationActivity.java</url>
+          <line>803</line>
+          <option name="timeStamp" value="1502" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/TrainingPlanFragment.java</url>
+          <line>567</line>
+          <option name="timeStamp" value="1505" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/PersonalDetailsFragment.java</url>
+          <line>533</line>
+          <option name="timeStamp" value="1545" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/PersonalDetailsFragment.java</url>
+          <line>583</line>
+          <option name="timeStamp" value="1546" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/activities/MainActivity.java</url>
+          <line>739</line>
+          <option name="timeStamp" value="1547" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/objects/User.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="1568" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/PracticeDataFragment.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="1628" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/miscellaneous/SQLiteDatabaseHandler.java</url>
+          <line>403</line>
+          <option name="timeStamp" value="1678" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/application/RunWithMiriApplication.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="1699" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/PostRunFragment.java</url>
+          <line>229</line>
+          <option name="timeStamp" value="1720" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/PostRunFragment.java</url>
+          <line>332</line>
+          <option name="timeStamp" value="1721" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/PostRunFragment.java</url>
+          <line>409</line>
+          <option name="timeStamp" value="1722" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/PostRunFragment.java</url>
+          <line>389</line>
+          <option name="timeStamp" value="1723" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/objects/User.java</url>
+          <line>363</line>
+          <option name="timeStamp" value="1753" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/PersonalDetailsFragment.java</url>
+          <line>696</line>
+          <option name="timeStamp" value="1765" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/activities/RegistrationActivity.java</url>
+          <line>719</line>
+          <option name="timeStamp" value="1766" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/activities/RegistrationActivity.java</url>
+          <line>732</line>
+          <option name="timeStamp" value="1767" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/activities/RegistrationActivity.java</url>
+          <line>740</line>
+          <option name="timeStamp" value="1768" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/activities/RegistrationActivity.java</url>
+          <line>706</line>
+          <option name="timeStamp" value="1769" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/activities/RegistrationActivity.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="1770" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/AgreementFragment.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="1772" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/AgreementFragment.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="1773" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/AgreementFragment.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="1774" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/miscellaneous/NetworkCenterHelper.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="1775" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/activities/LoginActivity.java</url>
+          <line>221</line>
+          <option name="timeStamp" value="1776" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/activities/LoginActivity.java</url>
+          <line>236</line>
+          <option name="timeStamp" value="1777" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/PostRunFragment.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="1782" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/PostRunFragment.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="1783" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/activities/MainActivity.java</url>
+          <line>334</line>
+          <option name="timeStamp" value="1790" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/activities/MainActivity.java</url>
+          <line>331</line>
+          <option name="timeStamp" value="1791" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/activities/MainActivity.java</url>
+          <line>345</line>
+          <option name="timeStamp" value="1795" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/objects/Logger.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="1796" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/WhileRunDialogFragment.java</url>
+          <line>417</line>
+          <option name="timeStamp" value="1806" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/miscellaneous/PracticeDataFetchHeightsTask.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="1870" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/AllRunsDataFragment.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="1874" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/AllRunsDataFragment.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="1876" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/activities/MainActivity.java</url>
+          <line>670</line>
+          <option name="timeStamp" value="1898" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/RunFragmentWithService.java</url>
+          <line>200</line>
+          <option name="timeStamp" value="1903" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/miscellaneous/PracticeDataSaveToBackendTask.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="1910" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/miscellaneous/PracticeDataSaveToBackendTask.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="1911" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/application/RunWithMiriApplication.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="1914" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/services/LocationService.java</url>
+          <line>659</line>
+          <option name="timeStamp" value="1916" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/RunFragmentWithService.java</url>
+          <line>467</line>
+          <option name="timeStamp" value="1925" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/RunFragmentWithService.java</url>
+          <line>460</line>
+          <option name="timeStamp" value="1926" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/activities/MainActivity.java</url>
+          <line>789</line>
+          <option name="timeStamp" value="1949" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/RunFragmentWithService.java</url>
+          <line>269</line>
+          <option name="timeStamp" value="1950" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/RunFragmentWithService.java</url>
+          <line>389</line>
+          <option name="timeStamp" value="1952" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/activities/MainActivity.java</url>
+          <line>797</line>
+          <option name="timeStamp" value="1956" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/activities/MainActivity.java</url>
+          <line>803</line>
+          <option name="timeStamp" value="1957" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/services/LocationService.java</url>
+          <line>412</line>
+          <option name="timeStamp" value="1958" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/TrainingPlanRegistrationFragment.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="1959" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/TrainingPlanRegistrationFragment.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="1962" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/TrainingPlanRegistrationFragment.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="1965" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/TrainingPlanRegistrationFragment.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="1967" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/fragments/TrainingPlanRegistrationFragment.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="1968" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/activities/MainActivity.java</url>
+          <line>400</line>
+          <option name="timeStamp" value="1969" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/services/NotificationExtender.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="1976" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/services/NotificationExtender.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="1977" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/forst/miri/runwithme/services/NotificationExtender.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="1978" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>bse.getName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>p1.getServerId()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Practice.getPracticeType(mPerssistantPracticeData.getPracticeNum()) == Practice.PracticeType.TIME</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>timeOrDistanceUpdate == Practice.PracticeType.TIME</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>resultCode == RESULT_OK</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>requestCode == RunFragmentWithService.REQUEST_OAUTH</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+</project>

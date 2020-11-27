@@ -1,0 +1,562 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_rect"
+    android:animateLayoutChanges="true"
+    tools:context="com.forst.miri.runwithme.fragments.SetDayAndTimePracticeFragment">
+
+    <LinearLayout
+        android:id="@+id/set_date_top_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_num_1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/fragment_icon_size"
+            android:layout_height="@dimen/fragment_icon_size"
+            android:layout_margin="@dimen/margin_num_1"
+            android:src="@drawable/reminders_pink_64" />
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            app:customFontStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_num_1"
+            android:text="@string/menu_time_of_reminders_heb"
+            android:textColor="@color/colorDarkPink"
+            android:textSize="@dimen/text_size_titles_of_menu_fragments" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/set_date_top_ll"
+        android:layout_above="@id/set_days_save_button">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/margin_num_2"
+            android:layout_marginBottom="@dimen/margin_num_2"
+            android:layout_gravity="top">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layoutDirection="rtl"
+                android:gravity="right">
+
+                <ImageButton
+                    android:id="@+id/set_day_trainings_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/arrow_down_purple"
+                    android:layout_margin="@dimen/margin_num_1"
+                    android:tag="false"/>
+                <com.forst.miri.runwithme.widges.TextViewCustomFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/times_of_my_trainings"
+                    android:textColor="@color/colorPurple"
+                    android:textSize="@dimen/text_size_1"
+                    android:layout_margin="@dimen/margin_num_1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/set_date_training_days_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/margin_num_2"
+                android:layout_marginLeft="@dimen/margin_num_1"
+                android:layout_marginBottom="@dimen/margin_num_1"
+                android:animateLayoutChanges="true"
+                android:visibility="gone">
+
+                <com.forst.miri.runwithme.widges.TextViewCustomFont
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_num_2"
+                    android:layout_marginLeft="@dimen/margin_num_2"
+                    android:gravity="center"
+                    android:text="@string/keep_day_difference_heb"
+                    android:textColor="@color/colorPurple"
+                    android:textSize="@dimen/text_size_1" />
+
+                <include layout="@layout/training_days_and_time_layout"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="@dimen/margin_num_2"
+                    android:layout_marginTop="@dimen/margin_num_2"/>
+
+                <com.forst.miri.runwithme.widges.TextViewCustomFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPurple"
+                    android:text="@string/reminders_heb"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="@dimen/margin_num_1"/>
+
+                <LinearLayout
+                    android:id="@+id/set_reminders_training_ll_reminder1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layoutDirection="rtl"
+                    android:layout_marginBottom="@dimen/margin_num_1"
+                    android:layout_marginTop="@dimen/margin_num_1">
+                    <ImageButton
+                        android:id="@+id/set_reminders_training_reminder_spinner1_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:background="@drawable/cancel_purple"
+                        android:layout_marginLeft="@dimen/margin_num_1"/>
+                    <Spinner
+                        android:id="@+id/set_reminders_training_reminder_spinner1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/set_reminders_training_ll_reminder2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layoutDirection="rtl"
+                    android:layout_marginBottom="@dimen/margin_num_1"
+                    android:layout_marginTop="@dimen/margin_num_1">
+                    <ImageButton
+                        android:id="@+id/set_reminders_training_reminder_spinner2_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:background="@drawable/cancel_purple"
+                        android:layout_marginLeft="@dimen/margin_num_1"/>
+                    <Spinner
+                        android:id="@+id/set_reminders_training_reminder_spinner2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/set_reminders_training_ll_add_reminder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layoutDirection="rtl"
+                    android:layout_marginTop="@dimen/margin_num_2"
+                    android:layout_marginBottom="@dimen/margin_num_1">
+                    <ImageButton
+                        android:id="@+id/set_reminders_training_add_reminder_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:background="@drawable/plus_button_purple"
+                        android:layout_marginLeft="@dimen/margin_num_1"
+                        android:layout_marginBottom="@dimen/margin_num_1"/>
+                    <com.forst.miri.runwithme.widges.TextViewCustomFont
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/add_reminder_heb"
+                        android:gravity="right|center_vertical"
+                        android:textColor="@color/colorPurple"
+                        android:layout_gravity="right"/>
+
+                </LinearLayout>
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/margin_num_1"
+                    android:layout_marginTop="@dimen/margin_num_1">
+
+                    <com.forst.miri.runwithme.widges.TextViewCustomFont
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/notification_sound_heb"
+                        android:textColor="@color/colorPurple"
+                        android:layout_gravity="right"
+                        android:gravity="right"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="left"
+                        android:layoutDirection="rtl">
+
+                        <com.forst.miri.runwithme.widges.TextViewCustomFont
+                            android:id="@+id/set_training_notification_sound_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorPurple"
+                            android:text="@string/no_ringtone_heb"/>
+
+                        <ImageButton
+                            android:id="@+id/set_reminders_training_choose_ringtone_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ringtone_button_purple"/>
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layoutDirection="rtl"
+                android:gravity="right">
+
+                <ImageButton
+                    android:id="@+id/set_day_exersices_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/arrow_down_blue"
+                    android:layout_margin="@dimen/margin_num_1"
+                    android:tag="false"/>
+                <com.forst.miri.runwithme.widges.TextViewCustomFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/times_of_my_exersices"
+                    android:textColor="@color/colorBlue"
+                    android:textSize="@dimen/text_size_1"
+                    android:layout_margin="@dimen/margin_num_1"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/set_date_exercise_days_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/margin_num_2"
+                android:layout_marginLeft="@dimen/margin_num_1"
+                android:layout_marginBottom="@dimen/margin_num_1"
+                android:animateLayoutChanges="true"
+                android:visibility="gone">
+
+                <include layout="@layout/exersice_days_and_time_layout"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="@dimen/margin_num_2"
+                    android:layout_marginTop="@dimen/margin_num_2" />
+
+
+                <com.forst.miri.runwithme.widges.TextViewCustomFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlue"
+                    android:text="@string/reminders_heb"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="@dimen/margin_num_1"/>
+
+                <LinearLayout
+                    android:id="@+id/set_reminders_exersize_ll_reminder1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layoutDirection="rtl"
+                    android:layout_marginBottom="@dimen/margin_num_1"
+                    android:layout_marginTop="@dimen/margin_num_1">
+                    <ImageButton
+                        android:id="@+id/set_reminders_exersize_reminder_spinner1_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:background="@drawable/cancel_blue"
+                        android:layout_marginLeft="@dimen/margin_num_1"/>
+                    <Spinner
+                        android:id="@+id/set_reminders_exersize_reminder_spinner1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/set_reminders_exersize_ll_reminder2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layoutDirection="rtl"
+                    android:layout_marginBottom="@dimen/margin_num_1"
+                    android:layout_marginTop="@dimen/margin_num_1">
+                    <ImageButton
+                        android:id="@+id/set_reminders_exersize_reminder_spinner2_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:background="@drawable/cancel_blue"
+                        android:layout_marginLeft="@dimen/margin_num_1"/>
+                    <Spinner
+                        android:id="@+id/set_reminders_exersize_reminder_spinner2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/set_reminders_exersize_ll_add_reminder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layoutDirection="rtl"
+                    android:layout_marginTop="@dimen/margin_num_2"
+                    android:layout_marginBottom="@dimen/margin_num_1">
+                    <ImageButton
+                        android:id="@+id/set_reminders_exersize_add_reminder_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:background="@drawable/plus_button_blue"
+                        android:layout_marginLeft="@dimen/margin_num_1"
+                        android:layout_marginBottom="@dimen/margin_num_1"/>
+                    <com.forst.miri.runwithme.widges.TextViewCustomFont
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/add_reminder_heb"
+                        android:gravity="right|center_vertical"
+                        android:textColor="@color/colorBlue"
+                        android:layout_gravity="right"/>
+
+                </LinearLayout>
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/margin_num_1"
+                    android:layout_marginTop="@dimen/margin_num_1">
+
+                    <com.forst.miri.runwithme.widges.TextViewCustomFont
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/notification_sound_heb"
+                        android:textColor="@color/colorBlue"
+                        android:layout_gravity="right"
+                        android:gravity="right"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="left"
+                        android:layoutDirection="rtl">
+
+                        <com.forst.miri.runwithme.widges.TextViewCustomFont
+                            android:id="@+id/set_exersize_notification_sound_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorBlue"
+                            android:text="@string/no_ringtone_heb"/>
+
+                        <ImageButton
+                            android:id="@+id/set_reminders_exersize_choose_ringtone_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ringtone_button_blue"/>
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layoutDirection="rtl"
+                android:gravity="right">
+
+                <ImageButton
+                    android:id="@+id/set_water_reminders_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/arrow_down_pink"
+                    android:layout_margin="@dimen/margin_num_1"
+                    android:tag="false"/>
+
+                <com.forst.miri.runwithme.widges.TextViewCustomFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reminders_to_dring_heb"
+                    android:textColor="@color/colorDarkPink"
+                    android:textSize="@dimen/text_size_1"
+                    android:layout_margin="@dimen/margin_num_1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/set_drink_reminder_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="@dimen/margin_num_2"
+                android:layout_marginBottom="@dimen/margin_num_2"
+                android:layout_marginLeft="@dimen/margin_num_1"
+                android:animateLayoutChanges="true"
+                android:visibility="gone">
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/set_drink_reminder_on_off_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:checked="false"
+                    android:theme="@style/SCBSwitch"
+                    android:layout_margin="@dimen/margin_num_1"
+                    android:gravity="center_vertical"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layoutDirection="rtl"
+                    android:orientation="horizontal">
+                    <com.forst.miri.runwithme.widges.TextViewCustomFont
+                        android:id="@+id/add_water_reminder_from_time_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/from_heb"
+                        android:textColor="@xml/disabled_color_selector"
+                        android:layout_marginLeft="@dimen/margin_num_2"/>
+                    <com.forst.miri.runwithme.widges.TextViewCustomFont
+                        android:id="@+id/add_water_reminder_from_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="00:00"
+                        android:textColor="@xml/disabled_color_selector"
+                        android:layout_marginLeft="@dimen/margin_num_2"/>
+                    <com.forst.miri.runwithme.widges.TextViewCustomFont
+                        android:id="@+id/add_water_reminder_untill_time_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/untill_heb"
+                        android:textColor="@xml/disabled_color_selector"
+                        android:layout_marginLeft="@dimen/margin_num_2"/>
+                    <com.forst.miri.runwithme.widges.TextViewCustomFont
+                        android:id="@+id/add_water_reminder_untill_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="00:00"
+                        android:textColor="@xml/disabled_color_selector"
+                        android:layout_marginLeft="@dimen/margin_num_2"/>
+                    <com.forst.miri.runwithme.widges.TextViewCustomFont
+                        android:id="@+id/add_water_reminder_every_time_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/every_heb"
+                        android:textColor="@xml/disabled_color_selector"
+                        android:layout_marginLeft="@dimen/margin_num_2"/>
+                    <com.forst.miri.runwithme.widges.TextViewCustomFont
+                        android:id="@+id/add_water_reminder_frequency_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="00"
+                        android:textColor="@xml/disabled_color_selector"
+                        android:layout_marginLeft="@dimen/margin_num_2"/>
+                    <com.forst.miri.runwithme.widges.TextViewCustomFont
+                        android:id="@+id/add_water_reminder_minutes_time_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/minutes_heb"
+                        android:textColor="@xml/disabled_color_selector"
+                        android:layout_marginLeft="@dimen/margin_num_1"/>
+
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/margin_num_1"
+                    android:layout_marginTop="@dimen/margin_num_1">
+
+                    <com.forst.miri.runwithme.widges.TextViewCustomFont
+                        android:id="@+id/set_water_notification_no_sound_textview1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/notification_sound_heb"
+                        android:textColor="@xml/disabled_color_selector"
+                        android:layout_gravity="right"
+                        android:gravity="right"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="left"
+                        android:layoutDirection="rtl">
+
+                        <com.forst.miri.runwithme.widges.TextViewCustomFont
+                            android:id="@+id/set_water_notification_sound_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@xml/disabled_color_selector"
+                            android:text="@string/no_ringtone_heb"/>
+
+                        <ImageButton
+                            android:id="@+id/set_water_choose_ringtone_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ringtone_button_pink"/>
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.forst.miri.runwithme.widges.ButtonCustomFont
+        android:id="@+id/set_days_save_button"
+        android:layout_width="@dimen/green_button_size_width"
+        android:layout_height="@dimen/green_button_size_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_num_2"
+        android:layout_marginBottom="@dimen/margin_num_1"
+        android:background="@drawable/default_button"
+        android:text="@string/save_heb"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/green_button_text_size" />
+
+</RelativeLayout>

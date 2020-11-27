@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="@dimen/width_of_eot_dialog"
+    android:layout_height="@dimen/height_of_eot_dialog"
+    android:background="@drawable/dialog_background_purple_stroke">
+
+    <!--<ImageButton-->
+        <!--android:id = "@+id/end_of_training_dialog_close_image_button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/ic_close_black_18dp"-->
+        <!--android:layout_gravity="right|top"-->
+        <!--android:padding="15dp"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/hooray_hev"-->
+        <!--android:textColor="@color/colorPurple"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_margin="@dimen/between_views_margin"-->
+        <!--android:textSize="@dimen/text_size_2"-->
+        <!--android:gravity="center|top"-->
+        <!--fontPath="fonts/Rubik-Regular.ttf"/>-->
+
+    <com.forst.miri.runwithme.widges.TextViewCustomFont
+        android:id="@+id/end_of_training_dialog_message_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/you_just_finished_train_num"
+        android:textColor="@color/colorPurple"
+        android:textSize="@dimen/text_size_1_5"
+        app:layout_constraintBottom_toTopOf="@+id/end_of_training_dialog_close_image_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!--<com.forst.miri.runwithme.widges.ButtonCustomFont-->
+        <!--android:id="@+id/end_of_training_dialog_rechedule_training_button"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/green_button_size_height"-->
+        <!--android:layout_gravity="center|bottom"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:background="@drawable/purple_stroke_button"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/change_training_date_heb"-->
+        <!--android:textColor="@color/colorPurple"-->
+        <!--android:textSize="@dimen/text_size_1"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/end_of_training_dialog_close_image_button"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent" />-->
+
+    <com.forst.miri.runwithme.widges.ButtonCustomFont
+        android:id="@+id/end_of_training_dialog_close_image_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/green_button_size_height"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/purple_stroke_button"
+        android:gravity="center"
+        android:text="@string/exit_heb"
+        android:textColor="@color/colorPurple"
+        android:textSize="@dimen/text_size_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

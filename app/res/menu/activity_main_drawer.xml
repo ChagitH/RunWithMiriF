@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:icon="@drawable/rashi"
+            android:title="@string/menu_main_heb" />
+
+        <item
+            android:id="@+id/nav_personal_data"
+            android:icon="@drawable/pratim_ishieim_96x96"
+            android:title="@string/menu_personal_data_heb"/>
+
+
+        <item
+            android:id="@+id/nav_time"
+            android:icon="@drawable/tizkotot96x96"
+            android:title="@string/menu_time_of_reminders_heb"/>
+
+
+
+        <item
+            android:id="@+id/nav_tips"
+            android:icon="@drawable/tipim_96x96"
+            android:title="@string/menu_tips_heb"/>
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/help96x96"
+            android:title="@string/menu_help_heb" />
+
+        <item
+            android:id="@+id/nav_questions"
+            android:icon="@drawable/question_and_answer"
+            android:title="@string/menu_questions_heb" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/shituf96x96"
+            android:title="@string/menu_share_heb"/>
+
+        <item
+            android:id="@+id/nav_agreement"
+            android:icon="@drawable/contract"
+            android:title="@string/menu_agreement_heb"/>
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/about_gray_96"
+            android:title="@string/menu_about_us_heb"/>
+</menu>

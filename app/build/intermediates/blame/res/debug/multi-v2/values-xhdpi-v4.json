@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/chagithazani/Dev/Projects/RunWithMe/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xhdpi-v4/values-xhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/res/values-xhdpi/dimens.xml",
+                    "from": {
+                        "startLines": "11,19,12,16,18,23,22,20,21,8,9,10,17,13,14,15,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "492,949,549,772,881,1194,1137,1008,1066,359,403,448,836,606,670,729,1245",
+                        "endColumns": "56,58,56,63,67,49,56,57,70,43,44,43,44,63,58,42,55",
+                        "endOffsets": "544,1003,601,831,944,1239,1189,1061,1132,398,443,487,876,665,724,767,1296"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,112,171,228,292,360,410,467,525,596,640,685,729,774,837,896,939",
+                        "endColumns": "56,58,56,63,67,49,56,57,70,43,44,43,44,62,58,42,55",
+                        "endOffsets": "107,166,223,287,355,405,462,520,591,635,680,724,769,832,891,934,990"
+                    }
+                }
+            ]
+        }
+    ]
+}

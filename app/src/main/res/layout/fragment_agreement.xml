@@ -1,0 +1,84 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_rect"
+    tools:context=".fragments.AgreementFragment">
+
+    <LinearLayout
+        android:id="@+id/agreement_top_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/agreement_scroll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="@dimen/fragment_icon_size"
+            android:layout_height="@dimen/fragment_icon_size"
+            android:layout_margin="@dimen/margin_num_1"
+            android:src="@drawable/contract_pink" />
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_num_1"
+            android:text="@string/menu_agreement_heb"
+            android:textColor="@color/colorDarkPink"
+            android:textSize="@dimen/text_size_titles_of_menu_fragments"
+            app:customFontStyle="bold" />
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/agreement_scroll"
+        layout="@layout/agreement_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/agreement_checkbox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agreement_top_ll"/>
+
+    <LinearLayout
+        android:id="@+id/agreement_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/between_views_margin"
+        android:gravity="right"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agreement_scroll">
+
+        <com.forst.miri.runwithme.widges.CheckBoxCustomFont
+            android:id="@+id/agreement_checkBox"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.85"
+            android:gravity="center_vertical"
+            android:layoutDirection="rtl"
+            android:nextFocusDown="@+id/registration_activity_button_register"
+            android:text="@string/short_agreement"
+            android:textSize="@dimen/i_agree_small_text"
+            android:checked="true"
+            android:clickable="false"/>
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

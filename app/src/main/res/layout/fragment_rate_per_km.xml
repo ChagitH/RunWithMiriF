@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/main_avtivity_outer_circle_stroke_width"
+    android:background="@drawable/background_rect"
+    tools:context="com.forst.miri.runwithme.fragments.RatePerKmFragment">
+
+        <ListView
+            android:id="@+id/rates_per_km_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10.0sp"
+            android:padding="@dimen/margin_num_1">
+
+
+        </ListView>
+
+
+
+</FrameLayout>

@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_rect"
+    tools:context="com.forst.miri.runwithme.fragments.HoorayFragment">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/hooray_fragment_image_medal"
+            android:layout_width="337dp"
+            android:layout_height="459dp"
+            android:layout_gravity="center"
+            android:src="@drawable/pink_medal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginBottom="65dip">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/hooray_fragment_image_circle"
+            android:layout_width="@dimen/main_activity_image_size"
+            android:layout_height="@dimen/main_activity_image_size"
+            android:layout_gravity="center"
+            app:civ_border_color="@color/colorWhite"
+            app:civ_border_width="1.5dp"/>
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/hooray_fragment_tv_hooray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_2"
+            app:customFontStyle="@string/bold"
+            android:gravity="center"
+            android:text="@string/hooray_hev"
+            android:textColor="@color/colorWhite"/>
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/hooray_fragment_tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_2" />
+    </LinearLayout>
+
+
+    </FrameLayout>
+
+</FrameLayout>

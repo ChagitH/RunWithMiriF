@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OutputDataBox">
+        <attr name="valueText" format="string"  />
+        <attr name="titleText" format="string"  />
+        <attr name="textColor" format="color" />
+        <attr name="circleImage" format="reference" />
+        <attr name="imageVisible" format="boolean" />
+        <attr name="textSize" format="dimension" />
+        <attr name="backgroundDrawable" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomCheckBox">
+        <attr name="checkedBackground" format="reference"  />
+        <attr name="uncheckedBackground" format="reference"  />
+        <attr name="isChecked" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="AddReminderView">
+        <attr name="originalText" format="string"  />
+        <attr name="reminderTextColor" format="color" />
+        <attr name="insideText" format="string"  />
+        <attr name="isReminderSet" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TabbedData">
+        <attr name="mainColor" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TextViewCustomFont">
+        <attr name="customFontStyle" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="EditTextCustomFont">
+        <attr name="customFontStyleEditText" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="ButtonCustomFont">
+        <attr name="customFontStyleButton" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CheckBoxCustomFont">
+        <attr name="customFontStyleCheckBox" format="string"/>
+    </declare-styleable>
+
+
+</resources>

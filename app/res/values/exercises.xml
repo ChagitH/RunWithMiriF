@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exercise_movie_adress">
+        <item>KYsWRislbeM</item>
+        <item>3VvZkGvrBKY</item>
+        <item>IKhaleG56Gs</item>
+        <item>TcaZaWVsahQ</item>
+
+    </string-array>
+
+    <string-array name="exercise_names_heb">
+        <item>@string/exercise1_heb</item>
+        <item>@string/exercise2_heb</item>
+        <item>@string/exercise3_heb</item>
+        <item>@string/exercise4_heb</item>
+    </string-array>
+
+</resources>

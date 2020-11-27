@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners
+        android:radius="2dip"/>
+    <!--<size-->
+        <!--android:height="@dimen/size_of_feedback_seekbar_knob"-->
+        <!--android:width="@dimen/size_of_feedback_seekbar_knob"/>-->
+
+    <size
+        android:height="@dimen/feedback_box_size"
+        android:width="@dimen/feedback_box_size"/>
+
+    <solid
+        android:color="@color/colorWhite"/>
+    <stroke
+        android:color="@color/colorDarkPink"
+        android:width="2dip"/>
+</shape>

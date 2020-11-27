@@ -1,0 +1,470 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/agreement_layout_scroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layoutDirection="rtl">
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_1_title"
+                app:customFontStyle="@string/bold"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_1"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_2"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_3"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_4"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_5"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_6"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_7"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_8"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_9"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_10"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_11"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_12"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_13"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_14"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_15"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_16"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_17"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_18"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_19"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_20"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_21"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_2_title"
+                android:layout_marginTop="@dimen/standart_small_margin"
+                app:customFontStyle="@string/bold"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_22"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_23"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_24"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_25"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_26"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_27"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_28"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_29"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_30"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_3_title"
+                android:layout_marginTop="@dimen/standart_small_margin"
+                app:customFontStyle="@string/bold"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_31"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_32"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_33"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_34"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_35"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_36"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_37"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_38"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_39"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_40"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_41"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_42"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_4_title"
+                android:layout_marginTop="@dimen/standart_small_margin"
+                app:customFontStyle="@string/bold"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_43"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_44"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_45"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_46"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_47"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_48"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_49"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_5_title"
+                android:layout_marginTop="@dimen/standart_small_margin"
+                app:customFontStyle="@string/bold"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_50"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_51"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_52"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_53"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_54"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_6_title"
+                android:layout_marginTop="@dimen/standart_small_margin"
+                app:customFontStyle="@string/bold"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_55"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_56"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agreement_57"
+                android:textDirection="rtl"
+                android:layout_marginTop="@dimen/standart_small_margin"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

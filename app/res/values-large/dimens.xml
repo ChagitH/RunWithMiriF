@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_of_tabbed_layout_hooray" >350dip </dimen>
+    <dimen name="main_activity_top_margin">30dip</dimen>
+
+
+    <dimen name="white_rect_pading">15dip</dimen>
+    <dimen name="main_activity_image_size">150dip</dimen>
+    <dimen name="between_buttons_margin">15dip</dimen>
+    <dimen name="main_button_text_size">17sp</dimen>
+    <dimen name="green_button_size_height">60dip</dimen>
+    <dimen name="between_main_buttons_margin">5dip</dimen>
+    <dimen name="main_fragment_textview_bottom_text_size">15sp</dimen>
+
+    <dimen name="i_agree_small_text">20sp</dimen>
+    <dimen name="green_button_text_size">30dp</dimen>
+    <dimen name="size_of_circle_for_image_login_register">200dip</dimen>
+    <dimen name="registration_text_size">22dp</dimen>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners
+        android:radius="7dp"/>
+    <size android:height="10dp" />
+    <!--<padding-->
+    <!--android:left="8dp"-->
+    <!--android:top="8dp"-->
+    <!--android:right="8dp"-->
+    <!--android:bottom="8dp" />-->
+    <solid
+        android:color="@color/colorTransparent"/>
+    <stroke
+        android:color="@color/colorPurple"
+        android:width="@dimen/main_avtivity_outer_circle_stroke_width"/>
+</shape>

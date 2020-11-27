@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_number_picker_main_layout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/dialog_rounded_corners_white"
+    android:layout_margin="@dimen/margin_num_1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:weightSum="5">
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/dialog_number_picker_tv_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/main_button_title_text_size"
+            android:layout_centerInParent="true"
+            android:layout_weight="0.5"/>
+
+        <NumberPicker
+            android:id="@+id/dialog_number_picker_numberPicker"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:layout_weight="3"
+            android:focusableInTouchMode="true"
+            android:layout_gravity="center"
+            fontPath="fonts/Rubik-Regular.ttf"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginRight="30dip"
+            android:layout_marginLeft="30dip"
+            android:layout_marginBottom="@dimen/from_bottom_of_screen_margin"
+            android:layoutDirection="rtl">
+
+            <com.forst.miri.runwithme.widges.ButtonCustomFont
+                android:id="@+id/dialog_number_picker_button_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="@dimen/margin_num_1"
+                android:layout_marginRight="@dimen/margin_num_1"
+                android:textSize="@dimen/main_button_text_size"
+                android:text="@string/ok_heb"/>
+
+            <com.forst.miri.runwithme.widges.ButtonCustomFont
+                android:id="@+id/dialog_number_picker_button_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/main_button_text_size"
+                android:layout_marginLeft="@dimen/margin_num_1"
+                android:layout_marginRight="@dimen/margin_num_1"
+                android:text="@string/cancel_heb" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:layoutDirection="rtl">
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/add_reminder_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:checked="false"
+        android:theme="@style/SCBSwitch"
+        android:layout_margin="@dimen/margin_num_1"
+        android:gravity="center_vertical"/>
+
+    <com.forst.miri.runwithme.widges.TextViewCustomFont
+        android:id="@+id/add_reminder_original_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_first_reminder_heb"
+        android:layout_margin="@dimen/margin_num_1"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/colorDarkPink"
+        android:textSize="@dimen/text_size_1"
+        android:gravity="center_vertical"/>
+
+
+    <LinearLayout
+        android:id="@+id/add_reminder_spinner_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layoutDirection="rtl"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/margin_num_1"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/add_reminder_before_spinner_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/add_reminder_heb"
+            android:textColor="@color/colorDarkPink"
+            android:textSize="@dimen/text_size_1"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_num_1"/>
+
+        <Spinner
+            android:id="@+id/add_reminder_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorDarkPink"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text_size_1">
+
+
+        </Spinner>
+
+
+    </LinearLayout>
+
+</LinearLayout>

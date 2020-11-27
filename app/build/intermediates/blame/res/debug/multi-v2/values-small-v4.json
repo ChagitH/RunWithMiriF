@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/chagithazani/Dev/Projects/RunWithMe/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/chagithazani/Dev/Projects/RunWithMe/app/src/main/res/values-small/dimens.xml",
+                    "from": {
+                        "startLines": "6,13,9,11,5,8,7,10,12,3,14,4",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "228,626,393,502,170,336,283,457,570,56,685,120",
+                        "endColumns": "54,58,63,67,57,56,52,44,55,63,42,49",
+                        "endOffsets": "278,680,452,565,223,388,331,497,621,115,723,165"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,110,169,233,301,359,416,469,514,570,633,676",
+                        "endColumns": "54,58,63,67,57,56,52,44,55,62,42,49",
+                        "endOffsets": "105,164,228,296,354,411,464,509,565,628,671,721"
+                    }
+                }
+            ]
+        }
+    ]
+}

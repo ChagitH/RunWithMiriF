@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.forst.miri.runwithme.fragments.AllRunsDataFragment"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background_rect"
+        android:gravity="center_horizontal">
+
+        <FrameLayout
+            android:layout_width="@dimen/fragment_top_circle_plus_small_image_radius_plus_image"
+            android:layout_height="@dimen/fragment_top_circle_plus_small_image_radius_plus_image"
+            android:layout_marginTop="@dimen/top_margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <FrameLayout
+                android:layout_width="@dimen/fragment_top_circle_plus_small_image_radius"
+                android:layout_height="@dimen/fragment_top_circle_plus_small_image_radius"
+                android:layout_gravity="left|top"
+                android:background="@drawable/icone250x250"  >
+
+                <com.forst.miri.runwithme.widges.TextViewCustomFont
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="@dimen/margin_num_4"
+                    android:text="@string/all_my_practices"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"/>
+            </FrameLayout>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/all_runs_fragment_small_image_circle"
+                android:layout_width="@dimen/image_circle_size_small_image"
+                android:layout_height="@dimen/image_circle_size_small_image"
+                android:layout_gravity="right|bottom"
+                android:textColor="@color/colorWhite"
+                app:civ_border_color="@color/colorLightPink"
+                app:civ_border_width="1.5dp"/>
+        </FrameLayout>
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="@dimen/fragment_top_circle_plus_small_image_radius_plus_image"-->
+        <!--android:layout_height="@dimen/fragment_top_circle_plus_small_image_radius_plus_image"-->
+        <!--android:layout_marginTop="@dimen/top_margin">-->
+        <!--<FrameLayout-->
+            <!--android:layout_width="@dimen/fragment_top_circle_plus_small_image_radius"-->
+            <!--android:layout_height="@dimen/fragment_top_circle_plus_small_image_radius"-->
+            <!--android:background="@drawable/icone250x250">-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="@dimen/fragment_top_circle_button_size"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="@dimen/fragment_top_circle_button_size"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_centerInParent="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:gravity="center|bottom"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:paddingBottom="20dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="@string/all_my_practices"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textColor="@color/colorWhite"&ndash;&gt;-->
+            <!--&lt;!&ndash;fontPath="fonts/Rubik-Regular.ttf"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textSize="@dimen/fragment_top_circle_text_size" />&ndash;&gt;-->
+        <!--</FrameLayout>-->
+
+        <!--<de.hdodenhof.circleimageview.CircleImageView-->
+            <!--android:id="@+id/all_runs_fragment_small_image_circle"-->
+            <!--android:layout_width="@dimen/image_circle_size_small_image"-->
+            <!--android:layout_height="@dimen/image_circle_size_small_image"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerHorizontal="false"-->
+            <!--android:layout_marginTop="@dimen/user_pic_text_length_from_top"-->
+            <!--android:src="@mipmap/ic_launcher"-->
+            <!--android:textColor="@color/colorWhite"-->
+            <!--app:civ_border_color="@color/colorLightPink"-->
+            <!--app:civ_border_width="1.5dp"/>-->
+
+    <!--</RelativeLayout>-->
+
+    <ListView
+        android:id="@+id/all_runs_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+        android:padding="@dimen/between_views_margin"/>
+</LinearLayout>
+</LinearLayout>

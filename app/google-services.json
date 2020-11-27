@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "87031610236",
+    "firebase_url": "https://runwithmiri-1512550415298.firebaseio.com",
+    "project_id": "runwithmiri-1512550415298",
+    "storage_bucket": "runwithmiri-1512550415298.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87031610236:android:425a0205e9424465",
+        "android_client_info": {
+          "package_name": "com.forst.miri.runwithme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87031610236-5j2q2j454ue9ctsav6dum9i01hl0k30c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAFEZ4ohjaPJoMOsxE0hf1jfDJfdl2T3Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

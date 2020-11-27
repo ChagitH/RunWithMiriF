@@ -1,0 +1,136 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/background_rect">
+
+
+    <include
+        android:id="@+id/watch_fragment_include"
+        layout="@layout/fragment_run_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.forst.miri.runwithme.widges.TextViewCustomFont
+        android:id="@+id/watch_fragment_center_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/warm_up_exercise_heb"
+        android:textColor="@color/colorPurple"
+        android:textSize="@dimen/small_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/watch_fragment_include" />
+
+    <FrameLayout
+        android:id="@+id/watch_fragment_center_framell"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="@dimen/margin_num_2"
+        android:background="@drawable/rouned_corner_shadow_purple"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/watch_fragment_bottom_ll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/watch_fragment_center_ll">
+
+        <com.google.android.youtube.player.YouTubeThumbnailView
+            android:id="@+id/watch_fragment_imageView_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop" />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/watch_fragment_bottom_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/run_watch_button_next"
+            android:layout_width="@dimen/green_stroke_button_size_width"
+            android:layout_height="@dimen/green_button_size_height"
+            android:layout_gravity="left"
+            android:layout_marginRight="@dimen/margin_num_2"
+            android:background="@drawable/default_button"
+            android:gravity="center"
+            android:layoutDirection="ltr"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:src="@drawable/ic_back_arrow_white_18dp" />
+
+            <com.forst.miri.runwithme.widges.TextViewCustomFont
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/next_heb"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/green_button_text_size" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/run_watch_button_back"
+            android:layout_width="@dimen/green_stroke_button_size_width"
+            android:layout_height="@dimen/green_button_size_height"
+            android:layout_gravity="right"
+            android:layout_marginLeft="@dimen/margin_num_2"
+            android:background="@drawable/default_button"
+            android:gravity="center"
+            android:layoutDirection="ltr"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/end_of_practice_button_next_back_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/back_heb"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/green_button_text_size" />
+
+            <ImageView
+                android:id="@+id/end_of_practice_button_next_back_back_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_play_arrow_white_18dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

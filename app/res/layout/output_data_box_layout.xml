@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTransparent">
+
+<LinearLayout
+    android:id="@+id/data_box_main_linear_layout"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rouned_corner_shadow_purple"
+    android:weightSum="2"
+    android:layoutDirection="ltr"
+    android:layout_marginRight="@dimen/output_data_box_right_magin">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/half_rouned_corner_white"
+        android:layout_marginRight="@dimen/main_avtivity_outer_circle_stroke_width"
+        android:layout_marginTop="@dimen/main_avtivity_outer_circle_stroke_width"
+        android:layout_marginBottom="@dimen/main_avtivity_outer_circle_stroke_width"
+        android:layout_marginLeft="@dimen/main_avtivity_outer_circle_stroke_width"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/data_box_tv_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" 7 ק״מ"
+            android:textSize="@dimen/pink_text_size"
+            android:gravity="center"/>
+
+    </FrameLayout>
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/data_box_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total_length_heb"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/pink_text_size"
+            android:textColor="@color/colorWhite"/>
+
+    </FrameLayout>
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/data_box_image"
+        android:layout_width="@dimen/data_box_image_size"
+        android:layout_height="@dimen/data_box_image_size"
+        android:layout_gravity="right|center_vertical"
+        android:src="@mipmap/ic_launcher" />
+
+</FrameLayout>

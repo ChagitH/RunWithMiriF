@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_rect">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/main_activity_circle_image"
+        android:layout_width="@dimen/main_activity_image_size"
+        android:layout_height="@dimen/main_activity_image_size"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="@dimen/top_margin"
+        android:src="@drawable/logo512x512"
+        app:civ_border_color="@color/colorLightPink"
+        app:civ_border_width="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/margin_num_2"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_activity_circle_image">
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            app:customFontStyle="bold"
+            android:id="@+id/main_activity_tv_hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text=""
+            android:textColor="@color/colorDarkPink"
+            android:textSize="@dimen/fragments_hello_text_size"
+            android:textStyle="bold" />
+
+        <!--android:textAppearance="@style/HelloUserTextStyle_normal_screen"-->
+        <!---->
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="@string/what_do_want_to_do_today_heb"
+            android:textColor="@color/colorDarkPink"
+            android:textDirection="rtl"
+            android:textSize="@dimen/fragments_hello_text_size" />
+    </LinearLayout>
+
+    <!--<FrameLayout-->
+    <!--android:id="@+id/main_fragment_buttons_frame"-->
+    <!--android:layout_width="@dimen/pink_tabed_view_height"-->
+    <!--android:layout_height="@dimen/pink_tabed_view_height"-->
+    <!--android:layout_margin="@dimen/margin_num_2"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/linearLayout">-->
+
+    <FrameLayout
+        android:id="@+id/main_activity_view_round_button_go_out_and_run"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/iconc250x250"
+        app:layout_constraintBottom_toTopOf="@+id/main_activity_view_round_button_all_my_practices"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/main_activity_view_round_button_daily_practice"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/main_fragment_textview_bottom_margin"
+            android:gravity="center"
+            android:text="@string/go_out_to_run"
+            android:textAppearance="@style/MainScreenRoundButtonTextTheme"
+            android:textSize="@dimen/main_fragment_textview_bottom_text_size" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/main_activity_view_round_button_daily_practice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/iconb250x250"
+        app:layout_constraintBottom_toTopOf="@+id/main_activity_view_round_button_my_practice_plan"
+        app:layout_constraintEnd_toStartOf="@+id/main_activity_view_round_button_go_out_and_run"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/main_fragment_textview_bottom_margin"
+            android:gravity="center"
+            android:text="@string/the_daily_practice"
+            android:textAppearance="@style/MainScreenRoundButtonTextTheme"
+            android:textSize="@dimen/main_fragment_textview_bottom_text_size" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/main_activity_view_round_button_all_my_practices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icone250x250"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/main_activity_view_round_button_my_practice_plan"
+        app:layout_constraintTop_toBottomOf="@+id/main_activity_view_round_button_go_out_and_run">
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/main_fragment_textview_bottom_margin"
+            android:gravity="center"
+            android:text="@string/all_my_practices"
+            android:textAppearance="@style/MainScreenRoundButtonTextTheme"
+            android:textSize="@dimen/main_fragment_textview_bottom_text_size" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/main_activity_view_round_button_my_practice_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icond250x250"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/main_activity_view_round_button_all_my_practices"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_activity_view_round_button_daily_practice">
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/main_fragment_textview_bottom_margin"
+            android:gravity="center"
+            android:text="@string/my_practice_plan"
+            android:textAppearance="@style/MainScreenRoundButtonTextTheme"
+            android:textSize="@dimen/main_fragment_textview_bottom_text_size" />
+    </FrameLayout>
+
+    <!--</FrameLayout>-->
+
+</android.support.constraint.ConstraintLayout>

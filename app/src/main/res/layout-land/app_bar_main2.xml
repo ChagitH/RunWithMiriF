@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/background_land"
+    tools:context="com.forst.miri.runwithme.activities.MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/fragment_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/white_rect_pading">
+
+
+    </FrameLayout>
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTransparent"
+        android:layoutDirection="rtl"
+        android:gravity="start"
+        app:elevation="0dp">
+
+        <!--android:theme="@style/DrawerArrowStyle"-->
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTransparent"
+            android:id="@+id/main_activity_toolbar"
+            android:layout_gravity="start"
+            android:layout_marginRight="@dimen/between_views_margin"
+            android:layout_marginTop="@dimen/special_top_margin_for_bar"/>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+</FrameLayout>

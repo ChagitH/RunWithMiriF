@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:padding="5dip"
+    android:weightSum="1"
+    android:textDirection="rtl"
+    android:background="@drawable/dialog_background_pink_stroke_rounded">
+
+    <com.forst.miri.runwithme.widges.TextViewCustomFont
+        android:id="@+id/rates_per_km_list_row_num_tv"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.30"
+        android:text="num"
+        android:gravity="right|center_vertical"
+        android:layout_marginLeft="@dimen/margin_num_2"
+        android:layout_marginRight="@dimen/margin_num_1"
+        android:textColor="@color/colorLightPink"
+        android:textSize="@dimen/rates_per_km_item_text_size"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/rates_per_km_list_row_length_tv"-->
+        <!--android:layout_width="0dip"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="0.45"-->
+        <!--fontPath="fonts/Rubik-Regular.ttf"-->
+        <!--android:text="length"-->
+        <!--android:layout_marginLeft="@dimen/between_views_margin"-->
+        <!--android:gravity="right|center_vertical"-->
+        <!--android:textColor="@color/colorLightPink"-->
+        <!--android:textSize="@dimen/rates_per_km_item_text_size"/>-->
+
+    <com.forst.miri.runwithme.widges.TextViewCustomFont
+        android:id="@+id/rates_per_km_list_row_avg_rate_tv"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.70"
+        android:text="rate"
+        android:layout_marginLeft="@dimen/margin_num_2"
+        android:gravity="right|center_vertical"
+        android:textColor="@color/colorLightPink"
+        android:textSize="@dimen/rates_per_km_item_text_size"/>
+
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_rect"
+    android:layout_gravity="center"
+    tools:context="com.forst.miri.runwithme.fragments.RunFragmentWithService">
+
+
+    <include
+        android:id="@+id/runwith_fragment_top_include"
+        layout="@layout/fragment_run_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.forst.miri.runwithme.widges.ButtonCustomFont
+        android:id="@+id/runwith_fragment_button_start_run_with_miri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/button_run_with_miri"
+        android:elevation="@dimen/margin_num_1"
+        android:text="@string/want_to_start_run_2_line_heb"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_size_go_out_and_run"
+        android:translationZ="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/run_run_button_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/runwith_fragment_button_start_run_alone"
+        app:layout_constraintTop_toBottomOf="@+id/runwith_fragment_top_include" />
+
+    <com.forst.miri.runwithme.widges.ButtonCustomFont
+        android:id="@+id/runwith_fragment_button_start_run_alone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/button_run_without_miri"
+        android:elevation="@dimen/margin_num_1"
+        android:text="@string/run_without_miri_heb"
+        android:textColor="@color/colorDarkPink"
+        android:textSize="@dimen/text_size_go_out_and_run"
+        android:translationZ="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/run_run_button_back"
+        app:layout_constraintEnd_toStartOf="@+id/runwith_fragment_button_start_run_with_miri"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/runwith_fragment_top_include" />
+
+
+    <LinearLayout
+        android:id="@+id/run_run_button_back"
+        android:layout_width="@dimen/green_stroke_button_size_width"
+        android:layout_height="@dimen/green_button_size_height"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/default_button"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.forst.miri.runwithme.widges.TextViewCustomFont
+            android:id="@+id/end_of_practice_button_next_back_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/back_heb"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/green_button_text_size" />
+
+        <ImageView
+            android:id="@+id/end_of_practice_button_next_back_back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_play_arrow_white_18dp" />
+    </LinearLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
